@@ -58,11 +58,12 @@ class PublisherPreferencesPlugin extends GenericPlugin {
         
         $update = DB::affectingStatement( 'UPDATE `journal_settings` SET `setting_value` = ? WHERE `setting_name` = ?', [ $activeTheme, 'themePluginPath' ] );
 
-        if($update > -1) {
+        if($update > 0) {
 
             // Ensure the theme plugin is enabled in the journal
             $allThemes = PluginRegistry::loadCategory('themes', true);
-            foreach(array_keys($allThemes) as $themeName) {
+            // Also make sure this plugin is loaded so that the journal can't change theme on a temp basis
+            foreach(array_merge( array_keys($allThemes), ['publisherpreferencesplugin', ]) as $themeName) {
 
                 DB::affectingStatement("
                     INSERT INTO `plugin_settings` ( plugin_name, context_id, setting_name, setting_value, setting_type )
