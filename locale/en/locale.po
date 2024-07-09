@@ -1,0 +1,2 @@
+msgid "plugins.generic.publisherPreferences.preferences"
+msgstr "Publisher Preferences"

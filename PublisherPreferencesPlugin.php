@@ -15,8 +15,10 @@
 namespace APP\plugins\generic\publisherPreferences;
 
 use APP\core\Application;
+use APP\plugins\generic\publisherPreferences\controllers\grid\PreferredPluginGridHandler;
 use APP\template\TemplateManager;
 use Illuminate\Support\Facades\DB;
+use PKP\core\Registry;
 use PKP\plugins\GenericPlugin;
 use PKP\plugins\Hook;
 use PKP\plugins\PluginRegistry;
@@ -28,11 +30,61 @@ class PublisherPreferencesPlugin extends GenericPlugin {
         $success = parent::register($category, $path);
 
         if ($success && $this->getEnabled()) {
+            Hook::add( 'Context::add', [ $this, 'updateJournalSettings' ] );
             Hook::add( 'Templates::Admin::Index::AdminFunctions', [$this, 'updateJournalSettings'] );
             Hook::add( 'Form::config::after', [$this, 'contextSettings'] );
+
+            Hook::add( 'Template::Settings::admin', [$this, 'callbackShowWebsiteSettingsTabs']) ;
+            Hook::add( 'LoadComponentHandler', [$this, 'setupGridHandler'] );
         }
 
         return $success;
+    }
+
+    public function getPreferredPlugins() {
+        return $this->getSetting( \PKP\core\PKPApplication::CONTEXT_ID_NONE, 'preferredPlugins' ) ?: [];
+    }
+
+    public function setPreferredPlugins($plugins) {
+        $this->updateSetting( \PKP\core\PKPApplication::CONTEXT_ID_NONE, 'preferredPlugins', $plugins );
+    }
+
+    /**
+     * Permit requests to the grid handler
+     *
+     * @param string $hookName The name of the hook being invoked
+     */
+    public function setupGridHandler($hookName, $params)
+    {
+        $component = & $params[0];
+        $componentInstance = & $params[2];
+        if ($component == 'plugins.generic.publisherPreferences.controllers.grid.PreferredPluginGridHandler') {
+            // Allow the static page grid handler to get the plugin object
+            $componentInstance = new PreferredPluginGridHandler($this);
+            return true;
+        }
+        return false;
+    }
+
+    /**
+     * Extend the website settings tabs to include static pages
+     *
+     * @param string $hookName The name of the invoked hook
+     * @param array $args Hook parameters
+     *
+     * @return bool Hook handling status
+     */
+    public function callbackShowWebsiteSettingsTabs($hookName, $args)
+    {
+        $templateMgr = $args[1];
+        $output = & $args[2];
+        $request = & Registry::get('request');
+        $dispatcher = $request->getDispatcher();
+
+        $output .= $templateMgr->fetch($this->getTemplateResource('publisherPreferencesTab.tpl'));
+
+        // Permit other plugins to continue interacting with this hook
+        return false;
     }
 
     public function contextSettings( $hookName, &$args )
@@ -61,9 +113,9 @@ class PublisherPreferencesPlugin extends GenericPlugin {
         if($update > 0) {
 
             // Ensure the theme plugin is enabled in the journal
-            $allThemes = PluginRegistry::loadCategory('themes', true);
+            $allThemes = PluginRegistry::loadCategory('themes', true, \PKP\core\PKPApplication::CONTEXT_ID_NONE );
             // Also make sure this plugin is loaded so that the journal can't change theme on a temp basis
-            foreach(array_merge( array_keys($allThemes), ['publisherpreferencesplugin', ]) as $themeName) {
+            foreach(array_merge( array_keys($allThemes), ['publisherpreferencesplugin', ], $this->getPreferredPlugins() ) as $themeName) {
 
                 DB::affectingStatement("
                     INSERT INTO `plugin_settings` ( plugin_name, context_id, setting_name, setting_value, setting_type )
