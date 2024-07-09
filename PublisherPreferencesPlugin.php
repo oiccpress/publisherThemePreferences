@@ -112,28 +112,29 @@ class PublisherPreferencesPlugin extends GenericPlugin {
 
         if($update > 0) {
 
-            // Ensure the theme plugin is enabled in the journal
-            $allThemes = PluginRegistry::loadCategory('themes', true, \PKP\core\PKPApplication::CONTEXT_ID_NONE );
-            // Also make sure this plugin is loaded so that the journal can't change theme on a temp basis
-            foreach(array_merge( array_keys($allThemes), ['publisherpreferencesplugin', ], $this->getPreferredPlugins() ) as $themeName) {
-
-                DB::affectingStatement("
-                    INSERT INTO `plugin_settings` ( plugin_name, context_id, setting_name, setting_value, setting_type )
-                    SELECT 
-                        ? AS `plugin_name`,
-                        `journals`.`journal_id` AS `context_id`,
-                        'enabled' as `setting_name`,
-                        '1' as `setting_value`,
-                        'bool' as `setting_type`
-                    FROM `journals`
-                    ON DUPLICATE KEY UPDATE `setting_value` = '1'
-                ", [ $themeName ]);
-
-            }
-
             $templateMgr = TemplateManager::getManager(Application::get()->getRequest());
             $templateMgr->clearTemplateCache();
             $templateMgr->clearCssCache();
+        }
+
+        // Ensure the theme plugin is enabled in the journal
+        $allThemes = PluginRegistry::loadCategory('themes', true, \PKP\core\PKPApplication::CONTEXT_ID_NONE );
+        // Also make sure this plugin is loaded so that the journal can't change theme on a temp basis
+        $plugins = array_merge( array_keys($allThemes), ['publisherpreferencesplugin', ], $this->getPreferredPlugins() );
+        foreach($plugins as $themeName) {
+
+            DB::affectingStatement("
+                INSERT INTO `plugin_settings` ( plugin_name, context_id, setting_name, setting_value, setting_type )
+                SELECT 
+                    ? AS `plugin_name`,
+                    `journals`.`journal_id` AS `context_id`,
+                    'enabled' as `setting_name`,
+                    '1' as `setting_value`,
+                    'bool' as `setting_type`
+                FROM `journals`
+                ON DUPLICATE KEY UPDATE `setting_value` = '1'
+            ", [ $themeName ]);
+
         }
 
     }
@@ -157,7 +158,7 @@ class PublisherPreferencesPlugin extends GenericPlugin {
      */
     public function getDescription()
     {
-        return 'This plugin ensures that the publsihers theme is used for their journals, ensuring a consistent user experience.';
+        return 'This plugin ensures that the publishers theme is used for their journals, ensuring a consistent user experience.';
     }
 
 }
