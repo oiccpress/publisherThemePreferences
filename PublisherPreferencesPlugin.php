@@ -90,7 +90,7 @@ class PublisherPreferencesPlugin extends GenericPlugin {
     public function contextSettings( $hookName, &$args )
     {
         $config = &$args[0];
-        if($config['id'] == 'theme') {
+        if($config['id'] == 'theme' && stripos($config['action'], 'site') === false) {
             foreach($config['fields'] as &$field) {
                 if($field['name'] == 'themePluginPath') {
                     // Hide the theme selection from the UI as it'll be overriden on a semi-regular basis
