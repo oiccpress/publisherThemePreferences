@@ -11,7 +11,7 @@
 <version>
 	<application>publisherPreferences</application>
 	<type>plugins.generic</type>
-	<release>1.1</release>
+	<release>1.2</release>
 	<date>2024-07-09</date>
 	<lazy-load>1</lazy-load>
 	<class>PublisherPreferencesPlugin</class>
