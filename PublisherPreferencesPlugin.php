@@ -36,6 +36,9 @@ class PublisherPreferencesPlugin extends GenericPlugin {
 
             Hook::add( 'Template::Settings::admin', [$this, 'callbackShowWebsiteSettingsTabs']) ;
             Hook::add( 'LoadComponentHandler', [$this, 'setupGridHandler'] );
+
+            Hook::add( 'LoadHandler', [$this, 'setPageHandler'] );
+            Hook::add( 'Templates::Management::Settings::tools', [ $this, 'callbackShowToolsTabs' ] );
         }
 
         return $success;
@@ -84,6 +87,30 @@ class PublisherPreferencesPlugin extends GenericPlugin {
         $output .= $templateMgr->fetch($this->getTemplateResource('publisherPreferencesTab.tpl'));
 
         // Permit other plugins to continue interacting with this hook
+        return false;
+    }
+
+    public function callbackShowToolsTabs($hookName, $args)
+    {
+        $templateMgr = $args[1];
+        $output = & $args[2];
+        $request = & Registry::get('request');
+        $dispatcher = $request->getDispatcher();
+
+        echo $templateMgr->fetch($this->getTemplateResource('toolsTab.tpl'));
+
+        // Permit other plugins to continue interacting with this hook
+        return false;
+    }
+
+    public function setPageHandler(string $hookName, array $args): bool
+    {
+        $page =& $args[0];
+        $handler =& $args[3];
+        if ($this->getEnabled() && $page === 'publisherpreferences') {
+            $handler = new PublisherPreferenceToolsPageHandler($this);
+            return true;
+        }
         return false;
     }
 

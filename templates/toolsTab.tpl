@@ -1,0 +1,1 @@
+<li><a name="pubPrefTab" href="{url page="publisherpreferences"}">{translate key="plugins.generic.publisherPreferences.preferences"}</a></li>
