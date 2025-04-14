@@ -6,3 +6,6 @@ msgstr "Copy Journal Navigation and Pages"
 
 msgid "plugins.generic.publisherPreferences.next"
 msgstr "Next"
+
+msgid "plugins.generic.publisherPreferences.copyTemplate"
+msgstr "Copy Navigation and Pages from Template"

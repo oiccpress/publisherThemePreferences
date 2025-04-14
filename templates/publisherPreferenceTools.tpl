@@ -15,4 +15,21 @@
 
     </form>
 
+    <hr/>
+
+    <form id="publisherPreferenceCopyJournal" class="pkp_form" action="{url page="publisherpreferences" op="copyTemplate"}" method="post">
+        {csrf}
+
+        <h2>{translate key="plugins.generic.publisherPreferences.copyTemplate"}</h2>
+
+        <select name="template">
+            {foreach from=$templates item=template}
+                <option value="{$template}">{$template}</option>
+            {/foreach}
+        </select>
+
+        {fbvFormButtons submitText="plugins.generic.publisherPreferences.next" hideCancel="true"}
+
+    </form>
+
 </div>

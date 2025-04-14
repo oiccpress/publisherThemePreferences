@@ -1,0 +1,2805 @@
+{
+    "primary": [
+        {
+            "type": "url",
+            "url": "{contextURL}",
+            "label": "{abbreviationUpper} Home"
+        },
+        {
+            "type": "url",
+            "url": "{contextURL}/about",
+            "label": "About",
+            "children": [
+                {
+                    "type": "url",
+                    "url": "{contextURL}/about",
+                    "label": "About this Journal"
+                },
+                {
+                    "type": "blockPage",
+                    "label": "Aims and Scope",
+                    "path": "aims-and-scope",
+                    "content": {
+                        "time": 1734439571580,
+                        "blocks": [
+                            {
+                                "id": "hSF22KuXuA",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "This is the journals aims and scope which needs to be added in later. TBC!"
+                                }
+                            }
+                        ],
+                        "version": "2.29.1"
+                    }
+                },
+                {
+                    "type": "blockPage",
+                    "label": "Editorial Board",
+                    "path": "editorial-board",
+                    "content": {
+                        "time": 1734439571580,
+                        "blocks": [],
+                        "version": "2.29.1"
+                    }
+                },
+                {
+                    "type": "url",
+                    "url": "{contextURL}/about/contact",
+                    "label": "Contact"
+                },
+                {
+                    "type": "url",
+                    "url": "{contextURL}/authors",
+                    "label": "Authors's List"
+                }
+            ]
+        },
+        {
+            "type": "currentIssue",
+            "label": "Current"
+        },
+        {
+            "type": "archives",
+            "label": "Archives"
+        },
+        {
+            "type": "url",
+            "url": "{contextURL}/authors",
+            "label": "Authors",
+            "children": [
+                {
+                    "type": "blockPage",
+                    "label": "Guide for Authors",
+                    "path": "guide-for-authors",
+                    "content": {
+                        "time": 1734439926191,
+                        "blocks": [
+                            {
+                                "id": "4x_70XxkPN",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "SUBMISSION OF PAPER"
+                                }
+                            },
+                            {
+                                "id": "_8F62r4v8z",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Requirements for new submission</b>"
+                                }
+                            },
+                            {
+                                "id": "QyT3qPeC58",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Authors may choose to submit the manuscript as a single word file to be used in the refereeing process."
+                                }
+                            },
+                            {
+                                "id": "MLqYrY4GAL",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Requirement of revised submission</b>"
+                                }
+                            },
+                            {
+                                "id": "uWq6i_hqgy",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Only when the submitted paper is at the revision stage, authors will be requested to put the paper in to a 'correct format' for acceptance and provide the items required for the publication of the manuscript."
+                                }
+                            },
+                            {
+                                "id": "71je_8w05O",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Contact details for submission</b>"
+                                }
+                            },
+                            {
+                                "id": "kw4n-H3FtQ",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "If authors are submitting a manuscript for publication in a special issue, please contact the Editor-in-Chief or Guest Editor for submission instructions. Please do not submit it through the online {abbreviationUpper} unless authors are specifically instructed to do so.&nbsp;"
+                                }
+                            },
+                            {
+                                "id": "QHLAipRuQc",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "BEFORE YOU BEGIN"
+                                }
+                            },
+                            {
+                                "id": "30yc6h6ljl",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Ethics in Publishing</b>"
+                                }
+                            },
+                            {
+                                "id": "EPY4pMCytj",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "The ethical policy of {abbreviationUpper} is based on the Committee on Publication Ethics (COPE) guidelines and complies with International Committee of {abbreviationUpper} Editorial Board codes of conduct. Readers, authors, reviewers and editors should follow these ethical policies once working with {abbreviationUpper}.&nbsp;The ethical policy of {abbreviationUpper} is liable to determine which of the typical research papers or articles submitted to the journal should be published in the concerned issue. The publishing decision is based on the suggestion of the journal's reviewers and editorial board members. The ethical policy insisted the Editor-in-Chief, may confer with other editors or reviewers in making the decision. The reviewers are necessary to evaluate the research papers based on the submitted content in confidential manner.&nbsp;The reviewers also suggest the authors to improve the quality of research paper by their reviewing comments.&nbsp; Authors should ensure that their submitted research work is original and has not been published elsewhere in any language. Applicable copyright laws and conventions should be followed by the authors. Any kind of plagiarism constitutes unethical publishing behavior and is unacceptable. For information on this matter in publishing and ethical guidelines please visit&nbsp;<a href=\"http://publicationethics.org/\">http://publicationethics.org.</a>&nbsp;"
+                                }
+                            },
+                            {
+                                "id": "7p9bL70ePe",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Peer-Review Process</b>"
+                                }
+                            },
+                            {
+                                "id": "8oEBPJ6u7F",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "In order to sustain the peer review system, authors have an obligation to participate in peer review process to evaluate manuscripts from others.&nbsp; When appropriate, authors are obliged to provide retractions and/or corrections of errors to the editors and the Publisher.&nbsp; All papers submitted to {abbreviationUpper} journal will be peer reviewed for at least one round. {abbreviationUpper} journal adopts a double-review policy: authors are blind to reviewers, and reviewers are also blind to authors. The peer review process is conducted in the online manuscript submission and peer-review system. After a manuscript is submitted to the online system, the system immediately notifies the editorial office. After passing an initial quality check by the editorial office, the manuscript will be assigned to two or more reviewers.&nbsp; After receiving reviewers’ comments, the editorial team member makes a decision. Because reviewers sometimes do not agree with each other, the final decision sent to the author may not exactly reflect recommendations by any of the reviewers."
+                                }
+                            },
+                            {
+                                "id": "nfltBmbFLM",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "The decision after each round of peer review may be one of the following:"
+                                }
+                            },
+                            {
+                                "id": "CZDWsIbG3l",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Accept without any further changes."
+                                }
+                            },
+                            {
+                                "id": "B2LLEqmJF6",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Accept with minor revision. The revised manuscript may or may not be sent to the reviewers for another round of comments."
+                                }
+                            },
+                            {
+                                "id": "EXPSDv_IYN",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Decline with resubmission encouraged. Major changes are necessary for resubmission. The revised manuscript will be peer reviewed for another round. Typically, it will be sent to the original reviewers."
+                                }
+                            },
+                            {
+                                "id": "o9uq2v8hez",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Decline without encouraging resubmission. The manuscript is rejected for publication by ({abbreviationUpper}).&nbsp;"
+                                }
+                            },
+                            {
+                                "id": "yklygljHk7",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Double-Blind Peer Review Guidelines</b>"
+                                }
+                            },
+                            {
+                                "id": "a4sGETLkpk",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "{journalName} ({abbreviationUpper}) uses double-blind review, which means that both the reviewer and author identities are concealed from the reviewers, and vice versa, throughout the review process. To facilitate this, authors need to ensure that their manuscripts are prepared in a way that does not give away their identity.&nbsp;&nbsp;"
+                                }
+                            },
+                            {
+                                "id": "YLxALGrIQk",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Information to help prepare the Title Page"
+                                }
+                            },
+                            {
+                                "id": "mMhjek4J_P",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "This should include the title, authors' names and affiliations, and a complete address for the corresponding author including telephone and e-mail address.&nbsp;"
+                                }
+                            },
+                            {
+                                "id": "NsC5y9nNyN",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Information to help prepare the Blinded Manuscript"
+                                }
+                            },
+                            {
+                                "id": "nx7bxj2Dns",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Besides the obvious need to remove names and affiliations under the title within the manuscript, there are other steps that need to be taken to ensure the manuscript is correctly prepared for double-blind peer review. To assist with this process, the key items that need to be observed are as follows:"
+                                }
+                            },
+                            {
+                                "id": "BJojtGOH13",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Use the third person to refer to work the Authors have previously undertaken, e.g. replace any phrases like “as we have shown before” with “… has been shown before [Anonymous, 2016]”."
+                                }
+                            },
+                            {
+                                "id": "DAZLuAsNS3",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Make sure figures do not contain any affiliation related identifier"
+                                }
+                            },
+                            {
+                                "id": "BCm_4KvC8w",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Do not eliminate essential self-references or other references but limit self-references only to papers that are relevant for those reviewing the submitted paper."
+                                }
+                            },
+                            {
+                                "id": "3GDmUF3M9q",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Cite papers published by the Author in the text as follows:&nbsp;‘[Anonymous, 2016]’."
+                                }
+                            },
+                            {
+                                "id": "GL-VEGRL0y",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "For blinding in the reference list:&nbsp;‘[Anonymous 2016] Details omitted for, -blind reviewing.’"
+                                }
+                            },
+                            {
+                                "id": "8-P4_LB_J_",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Remove references to funding sources"
+                                }
+                            },
+                            {
+                                "id": "1D0PkdYJ2S",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Do not include acknowledgments"
+                                }
+                            },
+                            {
+                                "id": "eS8Q28ZtI-",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Remove any identifying information, including author names, from file names and ensure document properties are also anonymized."
+                                }
+                            },
+                            {
+                                "id": "89_tCbk1uZ",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>&nbsp;Preparation of Manuscripts</b>"
+                                }
+                            },
+                            {
+                                "id": "fEzJLaUPQo",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Manuscripts must be submitted only in English and should be written according to sound grammar and proper terminology. Manuscripts should be typed in Calibri&nbsp;of 11 pt. font and in MS-Word format in one column with 2.5 cm margin at each side. Manuscript submission must be applied once in order to obtain only one submission ID number. More than one submission for a single manuscript can lose the chance of the manuscript consideration. Manuscript must be accompanied by a covering letter including title and author(s) name."
+                                }
+                            },
+                            {
+                                "id": "H43GFmXJfy",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>English Language Writing</b>"
+                                }
+                            },
+                            {
+                                "id": "rgZI5oP02t",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "All publications in the {abbreviationUpper} are in English language. Authors whose first language is not English should make sure their manuscript is written in idiomatic English before submission. Please write your text in good English (American or British usage is accepted, but not a mixture of these). No language and copy-editing services are provided by the {abbreviationUpper}; hence, authors who feel their manuscript may require editing to eliminate possible grammatical or spelling errors are encouraged to obtain such services prior to submission. Authors are responsible for all costs associated with such services."
+                                }
+                            },
+                            {
+                                "id": "dnNIcus4KI",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>New Submissions</b>"
+                                }
+                            },
+                            {
+                                "id": "7YNzU8tFg_",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Submission to {abbreviationUpper} journal proceeds totally online and authors will be guided stepwise through the creation and uploading of the manuscript files. As part of the manuscript, authors may choose to submit the manuscript as a single file to be used in the refereeing process. This can be a Word document (*.doc or *.docx), that can be used by referees to evaluate the manuscript. All figures, tables and supplementary data should be embedded and included in the main manuscript file.&nbsp;"
+                                }
+                            },
+                            {
+                                "id": "y_bHEwjvAV",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>References</b>"
+                                }
+                            },
+                            {
+                                "id": "fqLwsFtK5k",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "References list must be provided according to the {abbreviationUpper} references format in a consistent style. Where applicable, author(s) name(s),&nbsp;year of publication, journal abbreviated title/ book title, chapter title/article title, volume and issue&nbsp;numbers/ book chapter and the pagination must be present. Provide hyperlinks under each references in the references&nbsp;list. No DOI's is admitted instead. Citations must be highlighted in blue throughout the manuscript content and written in static text with no holding tracks."
+                                }
+                            },
+                            {
+                                "id": "CIlbGMIirI",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Formatting requirements</b>"
+                                }
+                            },
+                            {
+                                "id": "xlqjxKkpFk",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "All manuscripts must contain the essential elements needed to convey your manuscript, for example Abstract, Keywords, Introduction, Materials and Methods, Results and Discussion, Conclusion, Acknowledgement and Conflict of Interest. Artwork and Tables with Captions. Please ensure all figures, tables and supplementary data should be embedded and included in the main manuscript file.&nbsp;"
+                                }
+                            },
+                            {
+                                "id": "NiiN6ySzou",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Revised Submissions</b>"
+                                }
+                            },
+                            {
+                                "id": "_h7CSIQjCt",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Regardless of the file format of the original submission, at revision the authors are instructed to submit their manuscript with {abbreviationUpper} format and it may be editable. Keep the layout of the text as simple as possible. To avoid unnecessary errors, the authors are strongly advised to use the 'spell-check' and 'grammar-check' for the submitted manuscript.&nbsp;"
+                                }
+                            },
+                            {
+                                "id": "UbKP5PK7WI",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Manuscript Submission and Declaration</b>"
+                                }
+                            },
+                            {
+                                "id": "JHSMZEMidk",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "While submitting a manuscript to {abbreviationUpper}, all contributing author(s) must verify that the manuscript represents authentic and valid work and that neither this manuscript nor one with significantly similar content under their authorship has been published or is being considered for publication elsewhere including electronically in the same form, in English or in other language, without the written consent the copy right holder. All authors have agreed to allow the corresponding author to serve as the primary correspondent with the editorial office, to review the edited manuscript and proof. All contributing authors must complete and submit an Authorship Statement Form once submitting a manuscript to the {abbreviationUpper}. In addition, corresponding author is required to identify all authors’ contribution to the work described in the manuscript. All persons who have made substantial contributions to the work reported in the manuscript (e.g., data collection, analysis, writing or editing assistance) but who do not fulfil the authorship criteria should be mentioned along with their specific contributions in the Acknowledgments Section of the manuscript. It will helpful for determining the nature of the reported work. The contributing author(s) ensures that the presented data should be represented accurately in the manuscript and the manuscript should contain sufficient references to reproduce the concept or work by others. The publisher will not be held legally responsible should there be any claims for compensation."
+                                }
+                            },
+                            {
+                                "id": "0lxtxckV-b",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Manuscript Submission and Verification</b>"
+                                }
+                            },
+                            {
+                                "id": "GY5qzj7uYZ",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Manuscripts are assumed not to be published previously in print or electronic version and are not under consideration by another publication. Copies of related or possibly duplicated materials (including those containing significantly similar content or using same data) that have been published previously or are under consideration for another publication must be provided at the time of online submission."
+                                }
+                            },
+                            {
+                                "id": "WmnTBMbD2d",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Manuscript Structure</b>"
+                                }
+                            },
+                            {
+                                "id": "LUTKhcxK-Y",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Manuscript literature and tenses must be structured as: Title; Abstract; Keywords; Introduction; Materials and Methods; Results and Discussion; Conclusion; Author contributions; Acknowledgements; Abbreviation list table; Conflict of Interest; Open Access statement and References.&nbsp;"
+                                }
+                            },
+                            {
+                                "id": "sWH1PEqIk7",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Title Page"
+                                }
+                            },
+                            {
+                                "id": "CQvCyA96J4",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "The title page should include:- The name(s) of the author(s)- A concise and informative title- The affiliation(s) and address(es) of the author(s)- The e-mail address, telephone and fax numbers of the corresponding author.&nbsp;"
+                                }
+                            },
+                            {
+                                "id": "Da0kW9kMi6",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Manuscript Title"
+                                }
+                            },
+                            {
+                                "id": "dPhkrJYxOi",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Title of up to 17 words should not contain abbreviations. Avoid complicated and technical expressions and do not use vague expressions. The title should be oriented to urban studies issues while not being obscure or meaningless.&nbsp;"
+                                }
+                            },
+                            {
+                                "id": "FbYQeT48-Q",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Abstract"
+                                }
+                            },
+                            {
+                                "id": "Irwq4AVxPX",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "An abstract of 200 to 400 words that sketches the purpose of the study; basic procedures; main findings its novelty; discussions and the principal conclusions, should not contain any undefined abbreviations or references and also no abbreviation. ABSTRACT content structures MUST be structured according to:&nbsp; BACKGROUND AND OBJECTIVES; METHODS; FINDING and CONCLUSION except research and case study manuscripts."
+                                }
+                            },
+                            {
+                                "id": "pPbV14HOAg",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Keywords"
+                                }
+                            },
+                            {
+                                "id": "ZJUORwDui9",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Provide 5 to 7 keywords which can be used for indexing purposes. Keywords should not repeat the words of the manuscript title or contain abbreviations and shall be written in alphabetical order as separated by semicolon. Abbreviations should be defined at first mention and used consistently thereafter through the text."
+                                }
+                            },
+                            {
+                                "id": "9O04Kg4FX8",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Introduction"
+                                }
+                            },
+                            {
+                                "id": "-JE9rqr9EM",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "The Introduction should state the purpose of the investigation and identify clearly the gap of knowledge that will be filled in the Literature review study. The introduction should have 2-3 paragraphs dependent on the type or category of information delivered, as well as the study's motivation and objectives.&nbsp; Provide the relevant background information in the introduction chapter to place the author's contribution into context. Date and location of the research carried out throughout the study must be mentioned at the end of this section.&nbsp; The introduction chapter do not include the following."
+                                }
+                            },
+                            {
+                                "id": "uOgeWpiIW3",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Other than outlining what was done and achieved in the final paragraph, do not describe methodology, outcomes, or conclusions."
+                                }
+                            },
+                            {
+                                "id": "J7-ofq0SYx",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "A description of the data collection and analysis process."
+                                }
+                            },
+                            {
+                                "id": "3SHk8F3HRZ",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "In a nutshell, what was accomplished?"
+                                }
+                            },
+                            {
+                                "id": "xDhe69hkdJ",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "A thorough examination of the subject."
+                                }
+                            },
+                            {
+                                "id": "3sFFKEQJlW",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Cite your own work, work by colleagues, or work that supports your conclusions disproportionately, while omitting research that contradict your findings or work by competitors."
+                                }
+                            },
+                            {
+                                "id": "FE0koP5MYu",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Materials and Methods"
+                                }
+                            },
+                            {
+                                "id": "ZlSMoFbhMu",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "The Materials and Methods section should provide enough information to permit repetition of the experimental work. It should include clear descriptions and explanations of sampling procedures, experimental design, and essential sample characteristics and descriptive statistics, hypothesis tested, exact references to literature describing the tests used in the manuscript, number of data involved in statistical tests, etc.&nbsp; For materials, include the exact technical specifications and quantities as well as source or methods of preparation. For methods, the most common presenting order is chorological. This part must be concise while still being informative. This section includes subheadings for each category, method, or procedure employed, as well as study regions, analysis, and so on. This part should be written in the past tense with passive voice and should not contain any study findings."
+                                }
+                            },
+                            {
+                                "id": "yuGgASmXmQ",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Results and Discussion"
+                                }
+                            },
+                            {
+                                "id": "BnU8PjjpVq",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "The Results and Discussion section should describe the outcome and interpretation of the study. Data should be presented as concisely as possible - if appropriate in the form of tables or figures, although very large tables should be avoided. The Discussion should be an interpretation of the results and their significance with reference to work by other authors. Please note that the policy of the Journal with respect to units and symbols is that of SI symbols.&nbsp; Tables and figures should be used to present the research findings. Each collection of tables and statistics should be discussed in a separate paragraph, with the overall trends and data points of particular importance emphasized.&nbsp;"
+                                }
+                            },
+                            {
+                                "id": "Ye7ddvSvP-",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "The results and discussion should be included the following."
+                                }
+                            },
+                            {
+                                "id": "FQsGDqWrA8",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "It should be brief but well-represented without being overly wordy."
+                                }
+                            },
+                            {
+                                "id": "1NFkWB7YZ7",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "To organize all of the data in a methodical way, use Tables and Figures: Tables are used to show exact values, while figures are used to depict patterns or the effect of a connection."
+                                }
+                            },
+                            {
+                                "id": "jNM6UO6LN4",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Without referring to the text, the reader should be able to understand the figures and tables."
+                                }
+                            },
+                            {
+                                "id": "2d0GUuTetO",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Do not use both a Table and a Figure to display the same data."
+                                }
+                            },
+                            {
+                                "id": "AP7XeJnUyw",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Each table and figure must have a textual representation highlighting the major results. The result section should employ multiple tenses while delivering different information.g. i) Something accomplished throughout the course of the research, in the past tenseii) A present-tense element in the document itself."
+                                }
+                            },
+                            {
+                                "id": "9hoXtfhCUH",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "It is frequently instructive to give a discussion of the interpretation's potential flaws."
+                                }
+                            },
+                            {
+                                "id": "HUM_48f8HO",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Show how your findings and interpretations align with (or differ from) previously published work."
+                                }
+                            },
+                            {
+                                "id": "q3mssvFljE",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Discuss both theoretical and practical implications."
+                                }
+                            },
+                            {
+                                "id": "gDeXcjz3S-",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "The various works in the literature that cover this topic and how this work contributes to the larger field of research are discussed at the end of the section.&nbsp;"
+                                }
+                            },
+                            {
+                                "id": "ISuWfEizbL",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Tables"
+                                }
+                            },
+                            {
+                                "id": "6_ZfmZIK5Q",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Do not submit tables and graphs as photograph. Tables should be set within the text. Do not use internal horizontal and vertical rules. Tables should be set within the text and should have a clear and rational structure along with consecutive numerical order. All tables should be numbered (1, 2, 3, etc.). Give enough information in subtitles so that each table is understandable without reference to the text. For each table, please supply a table caption (title) explaining the components of the table. Identify any previously published material by giving the original source in the form of a reference at the end of the table caption. Tables should be with the captions placed above in limited numbers. Footnotes to tables should be indicated by superscript lower-case letters (or asterisks for significance values and other statistical data) and included beneath the table body.&nbsp;"
+                                }
+                            },
+                            {
+                                "id": "Tfq5ztRjAG",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Figures"
+                                }
+                            },
+                            {
+                                "id": "UghPkTRjUr",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Figures/ illustrations should be in high quality art work, within 200-300 dpi.&nbsp; As similar to Tables, all Figures must be embedded into the text not as separate submitted into the manuscript dashboard. Ensure that figures are clear, labelled, and of a size that can be reproduced legibly in the journal. Following remarks should be applied to the figures:"
+                                }
+                            },
+                            {
+                                "id": "Spk0gHC-Zr",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "- Each figure should have a concise caption describing accurately what the figure depicts. Include the captions&nbsp;in the text file of the manuscript, not in the figure file."
+                                }
+                            },
+                            {
+                                "id": "JqsG7aZUmu",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "- Figure captions begin with the term Fig. Figures should be with the captions placed below in limited numbers."
+                                }
+                            },
+                            {
+                                "id": "2HWMgrjhcY",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "- No punctuation is to be placed at the end of the caption.&nbsp;"
+                                }
+                            },
+                            {
+                                "id": "2fiIN85Khq",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "- Identify all elements found in the figure in the figure caption; and use boxes, circles, etc., as coordinate points in graphs."
+                                }
+                            },
+                            {
+                                "id": "nlGHBarstu",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "- Identify previously published material by giving the original source in the form of a reference citation at the end of the figure caption."
+                                }
+                            },
+                            {
+                                "id": "ewpYdQkypf",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "- No Google Earth images are accepted."
+                                }
+                            },
+                            {
+                                "id": "ekiPOZ77q1",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "- The maps must be original with Cardinal directions as well as Scales logos."
+                                }
+                            },
+                            {
+                                "id": "V4SSXiV3XF",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Conclusion"
+                                }
+                            },
+                            {
+                                "id": "inXYpWHYSY",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "The introduction to the work, followed by a concise description of the results found, and the discussion’s points are the most crucial element of the conclusion chapter.&nbsp; The conclusion chapter further includes the research's uniqueness, limitations, and recommendations for future research. Finally, the authors should convey the highlight in its entirety, with no references to literature.&nbsp; The concluding chapter should be at least half a page long, both scientifically and in terms of content."
+                                }
+                            },
+                            {
+                                "id": "BTucvi3zb8",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Author contributions"
+                                }
+                            },
+                            {
+                                "id": "ZKcc-Pu0DB",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "All authors must accept public responsibility for the substance of the material submitted for publication, according to the {abbreviationUpper}.&nbsp;Use the following phrase for single authors:&nbsp;The study conceptualization and design, data collection, analysis and interpretation of results, and manuscript writing are all solely the responsibility of the author. Use the following phrase if there are many authors: The authors confirm the study conception and design: X. Author, Y. Author; data collection: Y. Author; analysis and interpretation of results: X. Author, Y. Author. Z. Author; draft manuscript preparation: Y. Author. Z. Author. The results were evaluated by all authors, and the final version of the manuscript was approved.&nbsp; The contribution of the author(s) to the research effort must adhere to the authorship standards outlined in the {abbreviationUpper} Authorship Guidelines and as advised by the Committee on Publication Ethics (COPE). All contributors who do not match the authorship requirements should be listed in an 'Acknowledgements' section instead."
+                                }
+                            },
+                            {
+                                "id": "IthsC5OJwc",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Acknowledgements"
+                                }
+                            },
+                            {
+                                "id": "WCF9pfjuUh",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Acknowledgments of people, grants, funds with official number, etc. should be placed as a compulsory section. The names of financing organizations should be written in full, and the statement should follow the funding institution's criteria.&nbsp; Financial support affiliation of the study, if exists, must be mentioned in this section. Thereby, the Grant number of financial support must be included.&nbsp;"
+                                }
+                            },
+                            {
+                                "id": "CIpd6ot-70",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Conflict of Interest"
+                                }
+                            },
+                            {
+                                "id": "FyKROoHt8J",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Conflict of Interest is defined as a set of conditions in which professional judgment concerning a primary interest, such as the validity of research, may be influenced by a secondary interest, such as financial gain. A Conflict of Interest Disclosure is an agreement or notification from the authors that they have not been paid for the work, or if they have, stating the source of their payment. The purpose of Conflict of Interest Disclosure form is to provide readers of authors’ manuscript with information about authors’ interests that could influence how the authors receive the work. The author(s) should submit a conflict of interest disclosure form and is responsible for the accuracy and completeness of the submitted manuscript. Conflict of Interest Disclosure form can be signed by all authors&nbsp;and&nbsp;stating&nbsp;that&nbsp;the&nbsp;submitted&nbsp;manuscript&nbsp;is&nbsp;the&nbsp;authors’ original&nbsp;work, has&nbsp;not&nbsp;received&nbsp;prior publication and is not under consideration for publication elsewhere, permission has been received to use any material in the manuscript much as tables, figures etc. or no permissions have necessary to publish the authors’ work."
+                                }
+                            },
+                            {
+                                "id": "wZo7E9cKhS",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Conflict of interest statement must be placed at the manuscript as below:"
+                                }
+                            },
+                            {
+                                "id": "jXeTWB-y5A",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "\"The authors declare no potential conflict of interest regarding the publication of this work. In addition, the ethical issues including plagiarism, informed consent, misconduct, data fabrication and, or falsification, double publication and, or submission, and redundancy have been completely witnessed by the authors”."
+                                }
+                            },
+                            {
+                                "id": "0gdoN3qqJ5",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Abbreviations"
+                                }
+                            },
+                            {
+                                "id": "1r_-H47e8D",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "The list of all abbreviations as well as the chemical symbols which are used in the manuscript text they should be defined in the text at first use (Avoid addition of abbreviation in the manuscript abstract). The list of abbreviations (nomenclatures) must be provided alphabetically. If your manuscript does not contain any abbreviation, just state “Not applicable” in this section.&nbsp;"
+                                }
+                            },
+                            {
+                                "id": "v8WLn7pSLu",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "References"
+                                }
+                            },
+                            {
+                                "id": "Dvkcm9y1Al",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "All the references should be cited throughout the manuscript text as well as in the Reference section organized in accordance with the {abbreviationUpper} reference style. Groups of references should be listed first alphabetically, then chronologically. The number of references extracted from each journal should not exceed 3 to 5 citations, which is the average acceptable amount.&nbsp;It is recommended that the number of references preferably is not less than 30 for original paper, not less than 100 for review paper. It is also substantially recommended to the authors to refer to recent references in last 10 years rather than old and out of date ones.&nbsp;Volume, issue and pages of the whole references must be specified according to the {abbreviationUpper} format."
+                                }
+                            },
+                            {
+                                "id": "X3YRwFreZK",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Citing and listing of Web references"
+                                }
+                            },
+                            {
+                                "id": "psugaz_Pzb",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "No URL, or web are admitted to be mentioned as references. Only the past decade Web of Science or Scopus Journal articles are preferred to be used for study quality and better citations. Please ensure that every reference cited in the text is also present in the reference list.&nbsp;"
+                                }
+                            },
+                            {
+                                "id": "gAkes_RliV",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "List&nbsp;"
+                                }
+                            },
+                            {
+                                "id": "HwSRYC8o4b",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "References should be arranged first alphabetically and then further sorted chronologically if necessary. More than one reference from the same Author(s) in the same year must be identified by the letters \"a\", \"b\", \"c\", etc., placed after the year of publication.&nbsp;"
+                                }
+                            },
+                            {
+                                "id": "CEmplvycyr",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Journal article"
+                                }
+                            },
+                            {
+                                "id": "mRAyFBHJic",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Nouri, J.; Lorestani, B.; Yousefi, N.; Khorasani, N.; Hassani, A. H.; Seif, F.; Cheraghi, M., (2011). Phytoremediation potential of native plants grown in the vicinity of Ahangaran lead-zinc mine.&nbsp; Environ. Earth Sci., 62(3): 639-644 (6 pages).&nbsp;"
+                                }
+                            },
+                            {
+                                "id": "mogqIq6YA5",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Book&nbsp;"
+                                }
+                            },
+                            {
+                                "id": "LsqM_Sl8_A",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Davis, M. L., (2005). Introduction to Environmental Engineering, 3rd. Ed. McGraw Hill Inc.&nbsp;"
+                                }
+                            },
+                            {
+                                "id": "kNSoUG7BuL",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Book chapter&nbsp;"
+                                }
+                            },
+                            {
+                                "id": "hvNxmIsZT0",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Mettam, G. R.; Adams, L. B., (1999). How to prepare an electronic version of your article, in: Jones, B. S., Smith, R. Z. (Eds.), Introduction to the electronic age. E-Publishing Inc., New York.&nbsp;"
+                                }
+                            },
+                            {
+                                "id": "VJjwROrsUH",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Conference paper&nbsp;"
+                                }
+                            },
+                            {
+                                "id": "5fUrGZX6ad",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Brown, J., (2005). Evaluating surveys of transparent governance. In UNDESA, 6th. Global forum on reinventing government: towards participatory and transparent governance. Seoul, Republic of Korea 24-27 May. United Nations: New York.&nbsp;"
+                                }
+                            },
+                            {
+                                "id": "z2ETejmUS1",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Dissertation&nbsp;"
+                                }
+                            },
+                            {
+                                "id": "iR9Dw2XU-K",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Trent, J. W. (1975). Experimental acute renal failure. Ph.D. Dissertation, University of California. USA."
+                                }
+                            },
+                            {
+                                "id": "QfuIhwg4Pb",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Authorship"
+                                }
+                            },
+                            {
+                                "id": "HlrsGq52Dd",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "All contributing authors should qualify for authorship. The order of authorship should be a joint decision of the co-authors. Authorship credit should be based on substantial contribution to conception and design, execution, or analysis and interpretation of data. All authors should be involved in drafting the article or revising it critically for important intellectual content, must have read and approved the final version of the manuscript and approve of its submission to this journal."
+                                }
+                            },
+                            {
+                                "id": "4F7AmAmzTo",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Copyright"
+                                }
+                            },
+                            {
+                                "id": "R5-8f_gzaj",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "The {abbreviationUpper} is made available to the public under the open access policy. The accepted submissions are free to read, reuse, download, copy, distribute, and share as long as the author(s) of the manuscript are credited.&nbsp; {abbreviationUpper} will ask all authors of the acceptance article to sign a Copyright Agreement Form for granting the necessary publishing rights once the manuscript has been accepted. The accepted manuscript is moved into production after the copyright agreement form from the relevant author of the manuscript is received. Because the author(s) publish their manuscript as open access, the author(s) retain(s) certain rights such as patents, trademarks, and designs. The conditions of the&nbsp;<a href=\"http://creativecommons.org/licenses/by/4.0/\">Creative Commons Attribution 4.0 International License</a>&nbsp;are incorporated into the author(s) contract, dictating what others can do with the author(s) manuscript after it is published. Furthermore, after being properly attributed, the&nbsp;<a href=\"http://creativecommons.org/licenses/by/4.0/\">Creative Commons Attribution 4.0 International License</a>&nbsp;allows for unrestricted use, distribution, modification, and reproduction in any medium."
+                                }
+                            },
+                            {
+                                "id": "BEidCDkNrh",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Role of Funding Source"
+                                }
+                            },
+                            {
+                                "id": "9k-QQgNESI",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Authors are requested to clearly identify who provided financial support for the conduct of research and/or preparation of the article and briefly describe the role of the funder/sponsor in any part of the work including design and conduct of the study, data collection, data management, data analysis and interpretation, preparation, review and approval of the manuscript. The following rules should be followed:&nbsp;"
+                                }
+                            },
+                            {
+                                "id": "3ex255f-pi",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "The sentence should begin with: ‘This work was supported by …’."
+                                }
+                            },
+                            {
+                                "id": "POqNdXj2-W",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "The full official funding agency name should be given in an expandable form not in an abbreviated form."
+                                }
+                            },
+                            {
+                                "id": "oqYQMtcRIr",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Grant numbers should be complete and accurate and provided in brackets as follows: ‘[grant number ABX CDXXXXXX]’"
+                                }
+                            },
+                            {
+                                "id": "HFVDCTFuI1",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Multiple grant numbers should be separated by a comma as follows: ‘[grant numbers ABX CDXXXXXX, EFX GHXXXXXX]’"
+                                }
+                            },
+                            {
+                                "id": "sIDO8AIsjs",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Agencies should be separated by a semi-colon (plus ‘and’ before the last funding agency).&nbsp;"
+                                }
+                            },
+                            {
+                                "id": "yTHLFrFDzA",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Standard Reporting Guidelines"
+                                }
+                            },
+                            {
+                                "id": "FYjpj-eRbE",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Authors of original research papers and review articles should report their work accurately. Original research papers should be contained sufficient details to allow other researchers to replicate the work. Review articles should be included important work by researchers in a field and should be objectively written."
+                                }
+                            },
+                            {
+                                "id": "yqFpA_IRhX",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Life Science Reporting Guidelines"
+                                }
+                            },
+                            {
+                                "id": "LZYCnng2wG",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Authors should clearly report any involvement of hazards, human or animal subjects, patient images, case details, and other materials and information. Their experiments should be performed in compliance with laws and relevant institutional guidelines. When requested, authors should provide the ethics committee with approval documents, consent to release personal information such as images of individuals, and other necessary documents used in the approval process. In addition, it should be stated within the manuscript that proper consent has been obtained for experiments with human subjects."
+                                }
+                            },
+                            {
+                                "id": "BKaZ3FRuB4",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Errors in Published Papers</b>"
+                                }
+                            },
+                            {
+                                "id": "vZgOmqciyq",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "When an author(s) discovers a significant error or inaccuracy in his/her own published work, it is the author’s obligation to promptly notify the journal editor or publisher to retract or correct the manuscript.&nbsp; Finally, the corresponding author should be ensured that all appropriate co-authors included on the paper have seen and approved the final version of the paper and have agreed to its submission for publication."
+                                }
+                            },
+                            {
+                                "id": "b3fCe1ArLA",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Plagiarism Prevention and Violation of Publication Ethics</b>"
+                                }
+                            },
+                            {
+                                "id": "zI-dxGgiHn",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "All manuscripts under review or published with {abbreviationUpper} are subject to screening using Plagiarism Prevention Software called&nbsp;iThenticate. Plagiarism is a serious violation of publication ethics. Other violations include duplicate publication, data fabrication and falsification, and improper credit of author contribution.&nbsp; Thus, the Plagiarism or Fraudulent or knowingly inaccurate statements constitute unethical behaviour are unacceptable and submitting the same manuscript to more than one journal concurrently constitutes unethical publishing behaviour and is unacceptable.&nbsp;"
+                                }
+                            },
+                            {
+                                "id": "mv3GNQiQ3C",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "After the submission of a manuscript, it will be checked by the iThenticate similarity test for a plagiarism detection. The overall similarity (Similarity Index) must not exceeds the limit 15%, and the single paper similarity must not exceed the limit 1%. Otherwise, the paper will be directly rejected by the editor and no other chance will be given to the author(s) to re-submit it. Please visit:&nbsp;<a href=\"http://www.ithenticate.com/\">www.ithenticate.com/</a>"
+                                }
+                            },
+                            {
+                                "id": "9WdZF3wxHi",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "The default similarity report view gives the percentage of the text of the manuscript which has overlap with one or more published articles. Figures and equations cannot be checked at present. Note that a high similarity score does not necessarily indicate plagiarized text. A similarity score of 30% could mean 30% text in common with one source but could equally mean 1% text in common with 30 different sources. Re-used text that has been legitimately cited the Bibliography and Methods texts may all contribute to the similarity score. The subject knowledge of an editorial expert is vital in order to interpret the Crosscheck report and determine whether there are any grounds for concern.&nbsp;"
+                                }
+                            },
+                            {
+                                "id": "9MmRe0nT3o",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Covering Letter</b>"
+                                }
+                            },
+                            {
+                                "id": "T9G4hwB4UR",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "The covering letter contains the title of the manuscript, corresponding author and participated other author’s detail, an area of study and type of manuscript along with 3 referees to review the manuscript.&nbsp; Further, the corresponding author should be declared that the prepared manuscript is in accordance with the {journalName} Guide for Authors.&nbsp;&nbsp;"
+                                }
+                            },
+                            {
+                                "id": "vDha5hH7cB",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Submission Final Checklist</b>"
+                                }
+                            },
+                            {
+                                "id": "lTQJRmnRHy",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Prior to acceptance of the manuscript, the corresponding author is responsible to adjust the whole manuscript according to the following items and then the marked final checklist should be attached along with the covering letter:"
+                                }
+                            },
+                            {
+                                "id": "49R_PfuhXf",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>General Considerations</b>"
+                                }
+                            },
+                            {
+                                "id": "axWpEhr50U",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Read the Journal’s Guide for Authors and make sure that the manuscript (text, tables, figures, and photographs) meets Journal requirements."
+                                }
+                            },
+                            {
+                                "id": "bhlv_8Q0LB",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "The manuscript contains the main sections outlined in Journal’s Guide for Authors, e.g., Title, Abstract, Introduction, Materials and Methods, Results and Discussion, Conclusion, Appendices, Acknowledgments, Conflict of interest and References."
+                                }
+                            },
+                            {
+                                "id": "GFdO5f-R_S",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Spell-check the manuscript."
+                                }
+                            },
+                            {
+                                "id": "lqsP3aB-Pv",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "All authors must read the&nbsp;Ethics in publishing,&nbsp;Plagiarism prevention, Violation of publication ethics and Handling cases of misconduct before being submitted to the {abbreviationUpper}."
+                                }
+                            },
+                            {
+                                "id": "ydswwmCVhh",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "The Manuscript has been&nbsp;read and&nbsp;approved by all listed authors."
+                                }
+                            },
+                            {
+                                "id": "gH2byRp--D",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Not only the Corresponding Author, but also the whole contributors of the manuscript are advised to be registered at the journal website in order to keep their names in the manuscript bio-sketches."
+                                }
+                            },
+                            {
+                                "id": "PhF5MBVqLd",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "A copy right release and conflict of interest disclosure form must be signed by the corresponding author in case of multiple authorships, prior to the acceptation of the manuscript, by all authors, for publication to be legally responsible towards the Journal ethics and privacy policy.&nbsp;"
+                                }
+                            },
+                            {
+                                "id": "TlQ-NGQYYJ",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Title Page"
+                                }
+                            },
+                            {
+                                "id": "_8-Cukbcp2",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "The title of the manuscript is short and descriptive and does not contain abbreviation."
+                                }
+                            },
+                            {
+                                "id": "CrFb7KJvdk",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Names of all authors and their affiliations and complete addresses are included."
+                                }
+                            },
+                            {
+                                "id": "6XXHuI1Nep",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Name of corresponding author with affiliation, complete address and email address is included."
+                                }
+                            },
+                            {
+                                "id": "TwH_srxyMM",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Provide 5-7 indexing keywords preferably not mentioned in the title.&nbsp;"
+                                }
+                            },
+                            {
+                                "id": "-j5b5t-k2v",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Text Format"
+                                }
+                            },
+                            {
+                                "id": "DwMCSOpHG8",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "The manuscript is in single column (not double column) format."
+                                }
+                            },
+                            {
+                                "id": "375h_LR13X",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Abstract is brief (one paragraph of between 150 to 250 words), descriptive (a summary of the major findings in the manuscript) and accessible (jargon-free and clear to the readers)."
+                                }
+                            },
+                            {
+                                "id": "6-Miy1qjD2",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "No references and abbreviations cited in the Abstract."
+                                }
+                            },
+                            {
+                                "id": "bcBeFtOnj5",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "The pages are numbered consecutively beginning from the title page."
+                                }
+                            },
+                            {
+                                "id": "s5XHWfa8OI",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Document has continuous line numbers from start to finish."
+                                }
+                            },
+                            {
+                                "id": "Ek38JzI4mP",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "The same data are not presented in both Tables and Figures."
+                                }
+                            },
+                            {
+                                "id": "2hnIXv7akx",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Terms that are abbreviated are written out completely the first time they are used, and then abbreviated thereafter."
+                                }
+                            },
+                            {
+                                "id": "xXglKdDVZL",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Introduction states the objectives of the work and provide an adequate background, avoiding a detailed literature survey or a summary of the results."
+                                }
+                            },
+                            {
+                                "id": "h2V59PNCsd",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Results should be clear and concise."
+                                }
+                            },
+                            {
+                                "id": "TRY2FPa3l7",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Discussion should explore the significance of the results of the work, not repeat them. Avoid extensive citations and discussion of published literature."
+                                }
+                            },
+                            {
+                                "id": "AIINdoHfXw",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Conclusions of the study may be presented the outcome of the research work."
+                                }
+                            },
+                            {
+                                "id": "C9O0efawXl",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Appendices should be identified as A, B, etc. Formulae and equations in appendices should be given separate numbering: Eq. (A.1), Eq. (A.2), etc.; in a subsequent appendix, Eq. (B.1) and so on. Similarly, for tables and figures: Table A.1; Fig. A.1, etc."
+                                }
+                            },
+                            {
+                                "id": "0AevtAgEbX",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "The author(s) are appealed to provide the source(s) of financial support along with the grand number for the study in the acknowledgements section."
+                                }
+                            },
+                            {
+                                "id": "JJpKzYaeJK",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "References"
+                                }
+                            },
+                            {
+                                "id": "oOCwQeLyZZ",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "References should contain article titles."
+                                }
+                            },
+                            {
+                                "id": "2GuP9dvKvp",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "References must be arranged in alphabetical order."
+                                }
+                            },
+                            {
+                                "id": "bbxLK4Kyvz",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "All references referred to in the text are included in the list of references."
+                                }
+                            },
+                            {
+                                "id": "hkohpnBO-Y",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "The references cited are current and up-to-date."
+                                }
+                            },
+                            {
+                                "id": "PJTt3wOoo9",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "All references are formatted according to the style of the journal (Harvard style)."
+                                }
+                            },
+                            {
+                                "id": "fIDe_W5D7w",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "The volume and issue numbers of references must be mentioned, accurately."
+                                }
+                            },
+                            {
+                                "id": "8qI9tXHUYi",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "The number of pages of each reference must be calculated and added at the end of each reference as the \"Total Pages\" in bold character."
+                                }
+                            },
+                            {
+                                "id": "quyYA7CY7h",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "The number of references in the review paper preferred to be not contain less than 100; for original research paper or case report not less than 30 and for short communication 20 references are required."
+                                }
+                            },
+                            {
+                                "id": "DVaGF9mAum",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "The majority of manuscript references must not be extracted from a single journal. The acceptable average can be indicated at most 4 to 6 references from each journal.&nbsp;"
+                                }
+                            },
+                            {
+                                "id": "82LvqynMTb",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Tables and Figures"
+                                }
+                            },
+                            {
+                                "id": "hzvDFpJNl8",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "All Tables and Figures are numbered consecutively in the order of their initial citation in the text."
+                                }
+                            },
+                            {
+                                "id": "osAvf7IPFQ",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "All Tables and Figures are prepared according to the journal format."
+                                }
+                            },
+                            {
+                                "id": "aUUHtG96EP",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "All Tables and Figures referred to or mentioned are within the text."
+                                }
+                            },
+                            {
+                                "id": "VtEQ0x-Dj5",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Figure Legends are written in the ordinary manuscript and not on the Figures."
+                                }
+                            },
+                            {
+                                "id": "M0Yg_ty3CV",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "All symbols and abbreviations are defined in the Figure Legends."
+                                }
+                            },
+                            {
+                                "id": "RrTocHY1iq",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "All Figures preferred to be provided in excel format."
+                                }
+                            },
+                            {
+                                "id": "e2vphSh1hZ",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "All Figures that are graphs and maps (not photos) are supplied as EPS - encapsulated postscript (or PDF): Vector drawings, embed all used fonts. TIFF (or JPEG): Color or grayscale photographs (halftones), Bitmapped (pure black &amp; white pixels) line drawings and&nbsp;combinations&nbsp;bitmapped line/half-tone keep to a minimum of 700-1000 dpi."
+                                }
+                            },
+                            {
+                                "id": "mF43EJe59X",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "All provided maps are shown with scales and cardinal direction.&nbsp;"
+                                }
+                            }
+                        ],
+                        "version": "2.29.1"
+                    }
+                },
+                {
+                    "type": "blockPage",
+                    "label": "Publication Ethics",
+                    "path": "publication-ethics",
+                    "content": {
+                        "time": 1738685660323,
+                        "blocks": [
+                            {
+                                "id": "uNY3fj9AAG",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Publication Ethics and Publication Malpractice Statement for the {journalName} ({abbreviationUpper})</b>"
+                                }
+                            },
+                            {
+                                "id": "_EJgHzEuf1",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "{journalName} ({abbreviationUpper})&nbsp;publishes peer-reviewed journals on a wide range of topics in urban planning &amp; design and architecture and some other interdisciplinary studies. This statement explains ethical behavior of all parties involved in the act of publishing an article for {abbreviationUpper}, i.e.: the author, the Editor in Chief, the peer-reviewer and the publisher. This statement is based on internationally accepted Best Practice Guidelines for Journal Editors."
+                                }
+                            },
+                            {
+                                "id": "rb1RFU5-SG",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>DUTIES OF EDITORS</b>"
+                                }
+                            },
+                            {
+                                "id": "X78OSddVhk",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Decision on the Publication of Articles</b>"
+                                }
+                            },
+                            {
+                                "id": "RDyFBIbvUz",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "The Editor in Chief of {abbreviationUpper} is responsible for deciding which of the articles submitted to the journal should be published. The Editor in Chief may be guided by the policies of the journal's editorial board and subjected to such legal requirements regarding libel, copyright infringement and plagiarism. The Editor in Chief may confer with other editors or reviewers in making this decision."
+                                }
+                            },
+                            {
+                                "id": "q9OZ9Aai5T",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Fair play</b>"
+                                }
+                            },
+                            {
+                                "id": "sQeTow2b6w",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Manuscripts shall be evaluated solely on their intellectual merit without regard to authors’ race, gender, sexual orientation, religious belief, ethnic origin, citizenship, or political philosophy."
+                                }
+                            },
+                            {
+                                "id": "oXXvLog6oJ",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Confidentiality</b>"
+                                }
+                            },
+                            {
+                                "id": "4I-n4exXqt",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "The Editor in Chief/editors and any editorial staff must not disclose any information about a submitted manuscript to anyone other than the corresponding author, reviewers, potential reviewers, other editorial advisers, and the publisher."
+                                }
+                            },
+                            {
+                                "id": "_cZhCk2VAH",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Disclosure and conflicts of interest</b>"
+                                }
+                            },
+                            {
+                                "id": "MLUbfDSArE",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Unpublished materials disclosed in a submitted manuscript must not be used by anyone who has a view of the manuscript (while handling it) in his or her own research without the express written consent of the author."
+                                }
+                            },
+                            {
+                                "id": "I71CwbZFZT",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>DUTIES OF REVIEWERS</b>"
+                                }
+                            },
+                            {
+                                "id": "IX22y8CIB0",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Contribution of Peer Review</b>"
+                                }
+                            },
+                            {
+                                "id": "VdDFYO4zWq",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Peer review assists the Editor in Chief and the editorial board in making editorial decisions while editorial communications with the author may also assist the author in improving the paper."
+                                }
+                            },
+                            {
+                                "id": "wLNDcY5Fu-",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Promptness</b>"
+                                }
+                            },
+                            {
+                                "id": "DoDakNt1aR",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Any selected referee who feels unqualified to review the assigned manuscript or unable to provide a prompt review should notify the editor and excuse himself from the review process."
+                                }
+                            },
+                            {
+                                "id": "wq5Eb6lBcF",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Confidentiality</b>"
+                                }
+                            },
+                            {
+                                "id": "8ltcRMsU3p",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Manuscripts received for review must be treated as confidential documents. They must not be shown to, or discussed with, others except as authorized by the Editor in Chief."
+                                }
+                            },
+                            {
+                                "id": "JVNWFrJ8c-",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Standards of Objectivity</b>"
+                                }
+                            },
+                            {
+                                "id": "E2KMM95dm9",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Reviews should be conducted objectively. There shall be no personal criticism of the author. Reviewers should express their views clearly with supporting arguments."
+                                }
+                            },
+                            {
+                                "id": "K-Eim5i4ml",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Confidentiality</b>"
+                                }
+                            },
+                            {
+                                "id": "uLWpFBdyH2",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Privileged information or ideas obtained through peer review must be kept confidential and not used for personal advantage."
+                                }
+                            },
+                            {
+                                "id": "ai6Mjh5zrs",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Conflict of Interest</b>"
+                                }
+                            },
+                            {
+                                "id": "PLgvTw6LLo",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Reviewers should not review manuscripts in which they have conflicts of interest resulting from competitive, collaborative, or other relationships or connections with any of the authors, companies, or institutions connected to the papers."
+                                }
+                            },
+                            {
+                                "id": "FSO05mVzz3",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>DUTIES OF AUTHORS</b>"
+                                }
+                            },
+                            {
+                                "id": "ugZa78wOBE",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Reporting standards</b>"
+                                }
+                            },
+                            {
+                                "id": "s9-xh7K_BA",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Authors of reports of original research should present an accurate account of the work performed as well as an objective discussion of its significance. Underlying data should be represented accurately in the paper. A paper should contain sufficient detail and references to permit others to replicate the work. Fraudulent or knowingly inaccurate statements constitute unethical behavior and are unacceptable."
+                                }
+                            },
+                            {
+                                "id": "2ti5A5geTl",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Data Access and Retention</b>"
+                                }
+                            },
+                            {
+                                "id": "TX01Rq6GhW",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Authors may be asked to provide the raw data in connection with a paper for editorial review, and should be prepared to provide public access to such, if practicable, and should in any event be prepared to retain such data for a reasonable time after publication."
+                                }
+                            },
+                            {
+                                "id": "JWBodW8Aiv",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Originality and Plagiarism</b>"
+                                }
+                            },
+                            {
+                                "id": "ynK5VyK-cj",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Authors should ensure that they have written entirely original works, and if the authors have used the work and/or words of others this must be appropriately cited or quoted."
+                                }
+                            },
+                            {
+                                "id": "dtZ7yYxWjE",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Multiple Publication</b>"
+                                }
+                            },
+                            {
+                                "id": "LpE3G7ks20",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "An author should not in general publish manuscripts describing essentially the same research in more than one journal or primary publication. Submitting the same manuscript to more than one journal concurrently constitutes unethical publishing behavior and is unacceptable."
+                                }
+                            },
+                            {
+                                "id": "u7ygmr11mx",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Authorship of the Paper</b>"
+                                }
+                            },
+                            {
+                                "id": "_9Lkv5jF70",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Authorship should be limited to those who have made a significant contribution to the conception, design, execution, or interpretation of the reported study. All those who have made significant contributions should be listed as co-authors. Where there are others who have participated in certain substantive aspects of the research project, they should be acknowledged or listed as contributors."
+                                }
+                            },
+                            {
+                                "id": "Ai8S9NsOxk",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Corresponding Author</b>"
+                                }
+                            },
+                            {
+                                "id": "aGOqIQWieL",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Corresponding author is the author responsible for communicating with the journal for publication. The corresponding author should ensure that all appropriate co-authors and no inappropriate co-authors are included on the paper, and that all co-authors have seen and approved the final version of the paper and have agreed to its submission for publication."
+                                }
+                            },
+                            {
+                                "id": "QLGi_7CBtL",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Disclosure and Conflicts of Interest</b>"
+                                }
+                            },
+                            {
+                                "id": "wlLxbGRkua",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "All authors should disclose in their manuscript any financial or other substantive conflict of interest that might be construed to influence the results or interpretation of their manuscript. All sources of financial support for the project should be disclosed."
+                                }
+                            },
+                            {
+                                "id": "zVooRcbCUU",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Fundamental errors in published works</b>"
+                                }
+                            },
+                            {
+                                "id": "HLOoMDulan",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "When an author discovers a significant error or inaccuracy in his/her own published work, it is the author’s obligation to promptly notify the journal editor or publisher and cooperate with the editor to retract or correct the paper."
+                                }
+                            },
+                            {
+                                "id": "AX8hd7NsIQ",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Plagiarism Policy</b>"
+                                }
+                            },
+                            {
+                                "id": "Yv6Zwn7_wB",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "All articles submitted will be checked using the&nbsp;<a href=\"http://www.ithenticate.com/\">iThenticate plagiarism detection software</a>."
+                                }
+                            },
+                            {
+                                "id": "yQqBgVG6zD",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "&nbsp;A specific process is followed to manage a case of plagiarism. {journalName} Journal follows the Committee on Publication Ethics (COPE)'s guidelines presented in the &nbsp;following flowcharts:"
+                                }
+                            },
+                            {
+                                "id": "cJvMQ1IjFq",
+                                "type": "list",
+                                "data": {
+                                    "style": "unordered",
+                                    "items": [
+                                        {
+                                            "content": "Suspected plagiarism in a submitted manuscript",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "Suspected plagiarism in a published manuscript",
+                                            "items": []
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "uZ3U09_q_j",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "&nbsp;For other plagiarism issues and scientific misconduct, {journalName} Journal apply the&nbsp;<a href=\"https://publicationethics.org/guidance?t=Plagiarism&amp;type%5B%5D=Case&amp;sort=score\">COPE Guidance on Plagiarism Cases</a>.&nbsp;"
+                                }
+                            },
+                            {
+                                "id": "zlJuLvvvs9",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Types of Plagiarism</b>"
+                                }
+                            },
+                            {
+                                "id": "YrrUgyaZ7G",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "We detect and consider the following types of plagiarism in the journal and prevent them to be used:Full Plagiarism:&nbsp;Previously published content without any changes to the text, idea, and grammar is considered as full plagiarism. It involves presenting exact text from a source as one’s own.Partial Plagiarism:&nbsp;If content is a mixture from multiple different sources, where the author has extensively rephrased text, then it is known as partial plagiarism.Self-Plagiarism:&nbsp;When an author reuses complete or portions of their pre-published research, then it is known as self-plagiarism. Complete self-plagiarism is a case when an author republishes their own previously published work in a new journal. (<a href=\"https://publicationethics.org/text-recycling-guidelines\">Read the COPE guidelines on text recycling)</a>&nbsp;&nbsp;"
+                                }
+                            },
+                            {
+                                "id": "C5WI2d2U-i",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Self-plagiarism or Text Recycling Guidelines</b>"
+                                }
+                            },
+                            {
+                                "id": "7E-P254bru",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "(Based on&nbsp;<a href=\"https://publicationethics.org/resources/guidelines-new/text-recycling-guidelines-editors-0\">COPE's guideline: Text recycling guidelines for editors</a>)"
+                                }
+                            },
+                            {
+                                "id": "HFcAWA8EPL",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Self-plagiarism, also referred to as ‘text recycling’, is a topical issue and is currently generating much discussion among editors. Opinions are divided as to how much text overlap with an author’s own previous publications is acceptable, and editors often find it hard to judge when action is required.&nbsp;"
+                                }
+                            },
+                            {
+                                "id": "kfIt2W7yPg",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>How to deal with text recycling</b>"
+                                }
+                            },
+                            {
+                                "id": "Mv0TWmPFqY",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Introduction</b>"
+                                }
+                            },
+                            {
+                                "id": "c49ylQXirQ",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "These guidelines are intended to guide editors in dealing with cases of text recycling. Text recycling, also known as self-plagiarism, is when sections of the same text appear in more than one of an author’s own publications.Editors should consider each case of text recycling on an individual basis as the most appropriate course of action will depend on a number of factors."
+                                }
+                            },
+                            {
+                                "id": "SQEec3XvtA",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>When should action be considered?</b>"
+                                }
+                            },
+                            {
+                                "id": "gu9rLXVEb1",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Text recycling can take many forms, and editors should consider which parts of the text have been recycled."
+                                }
+                            },
+                            {
+                                "id": "gzD8Ps2IZs",
+                                "type": "list",
+                                "data": {
+                                    "style": "unordered",
+                                    "items": [
+                                        {
+                                            "content": "Duplication of datais likely to always be considered serious (and should be dealt with according to the COPE guidelines for duplicate publications [1,2].",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "Use of similar or identical phrases in&nbsp;methods sectionswhere there are limited ways to describe a common method, however, is not uncommon. In such cases, an element of text recycling is likely to be unavoidable in further publications using the same method. Editors should use their discretion when deciding how much overlap of methods text is acceptable, considering factors such as whether authors have been transparent and stated that the methods have already been described in detail elsewhere and provided a citation.",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "Duplication of background ideas in the&nbsp;introductionmay be considered less significant than duplication of the hypothesis, discussion, or conclusions.",
+                                            "items": []
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "JD1W93O3Z0",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "When significant overlap is identified between two or more articles, editors should consider taking action. Several factors may need to be taken into account when deciding whether the overlap is considered significant."
+                                }
+                            },
+                            {
+                                "id": "XySiLaywDZ",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Text recycling in a submitted manuscript</b>"
+                                }
+                            },
+                            {
+                                "id": "D75Q7LAEy4",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Text recycling may be identified in a submitted article by editors or reviewers, or by the use of plagiarism detection software, e.g. iThenticate. Editors should consider the extent of the overlap when deciding how to act."
+                                }
+                            },
+                            {
+                                "id": "_hNM0TaJ3h",
+                                "type": "list",
+                                "data": {
+                                    "style": "unordered",
+                                    "items": [
+                                        {
+                                            "content": "Where overlap is considered to be minor, authors may be asked to re-write overlapping sections, and cite their previous article(s).",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "More significant overlap may result in rejection of the manuscript.",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "Where the overlap includes data, Editors should handle cases according to the COPE flowchart for dealing with suspected redundant publication in a submitted manuscript [1].",
+                                            "items": []
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "fqV-gac3v2",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Text recycling in a published article</b>"
+                                }
+                            },
+                            {
+                                "id": "mW4rYeKYFZ",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "If text recycling is discovered in a published article, it may be necessary to publish a correction to, or retraction of, the original article. This decision will depend on the degree and nature of the overlap, and several factors will need to be considered. As for text recycling in a submitted manuscript, editors should handle cases of overlap in data according to the COPE flowchart for dealing with suspected redundant publication in a published article [2].Journal editors should consider publishing a correction article when:"
+                                }
+                            },
+                            {
+                                "id": "VLpdFPebBp",
+                                "type": "list",
+                                "data": {
+                                    "style": "unordered",
+                                    "items": [
+                                        {
+                                            "content": "Sections of the text, generally excluding methods, are identical or near identical to a previous publication by the same author(s);",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "The original publication is not referenced in the subsequent publication; but",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "There is still sufficient new material in the article to justify its publication.",
+                                            "items": []
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "PrrFF-knKN",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "The correction should amend the literature by adding the missing citation and clarifying what is new in the subsequent publication versus the original publication.Journal editors should consider publishing a retraction article when:"
+                                }
+                            },
+                            {
+                                "id": "8L2jZCr5pD",
+                                "type": "list",
+                                "data": {
+                                    "style": "unordered",
+                                    "items": [
+                                        {
+                                            "content": "There is significant overlap in the text, generally excluding methods, with sections that are identical or near identical to a previous publication by the same author(s);",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "The recycled text reports previously published data and there is insufficient new material in the article to justify its publication in light of the previous publication(s).",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "The recycled text forms the major part of the discussion or conclusion in the article.",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "The overlap breaches copyright.",
+                                            "items": []
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "j44EzO9ste",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "The retraction should be issued in line with the COPE retraction guidelines [3]."
+                                }
+                            },
+                            {
+                                "id": "WFckyt1csp",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>How far back should this be applied?</b>"
+                                }
+                            },
+                            {
+                                "id": "COvhb6hl93",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Attitudes towards text recycling have changed over the past decade. Editors should consider this when deciding how to deal with individual cases of text recycling in published articles. Editors should judge each case in line with accepted practice at the time of publication.In general, where overlap does not involve duplication of results, editors are advised to consider taking no corrective action for cases where the text recycling occurred earlier than 2004. Editors may wish to take corrective action in the case of duplication of data prior to this date and should follow the COPE flowchart for dealing with suspected redundant publication in a published article [2]."
+                                }
+                            },
+                            {
+                                "id": "ah126bc75b",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Opinion, Review and Commentary articles</b>"
+                                }
+                            },
+                            {
+                                "id": "cFIL4SpNRO",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Non-research article types such as Opinion, Review and Commentary articles should in principle adhere to the same guidelines as research articles. Due to the critical and opinion-based nature of some non-research article types, action should be considered when text is recycled from an earlier publication without any further novel development of previously published opinions or ideas or when they are presented as novel without any reference to previous publications.&nbsp;"
+                                }
+                            },
+                            {
+                                "id": "RnV7uYmUC6",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>References/further reading</b>"
+                                }
+                            },
+                            {
+                                "id": "PqgCpPRvUO",
+                                "type": "list",
+                                "data": {
+                                    "style": "ordered",
+                                    "items": [
+                                        {
+                                            "content": "COPE flowchart for suspected redundant publication in a submitted manuscript&nbsp;",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "COPE flowchart for suspected redundant publication in a published article&nbsp;",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "COPE guidelines for retracting articles&nbsp;",
+                                            "items": []
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "dtKcA_zYuA",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Allegations of misconduct</b>"
+                                }
+                            },
+                            {
+                                "id": "_RQOtgwXm7",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Definitions of Misconduct</b>"
+                                }
+                            },
+                            {
+                                "id": "R_XGKdhALT",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Deception may be deliberate, by reckless disregard of possible consequences, or by ignorance. Since the underlying goal of misconduct is to deliberately deceive others as to the truth, the journal’s preliminary investigation of potential misconduct must take into account not only the particular act or omission but also the apparent intention (as best it can be determined) of the person involved. Misconduct does not include unintentional errors. The most common forms of scientific misconduct include:"
+                                }
+                            },
+                            {
+                                "id": "eKMsIWoXOC",
+                                "type": "list",
+                                "data": {
+                                    "style": "unordered",
+                                    "items": [
+                                        {
+                                            "content": "Falsification of data: ranges from fabrication to deceptive selective reporting of findings and omission of conflicting data, or willful suppression and/or distortion of data.",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "Plagiarism: The appropriation of the language, ideas, or thoughts of another without crediting their true source, and representation of them as one’s original work (see prior section).",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "Improprieties of authorship: Improper assignment of credit, such as excluding others, misrepresentation of the same material as original in more than one publication, the inclusion of individuals as authors who have not contributed to the work published; or submission of multi-authored publications without the concurrence of all authors.",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "Misappropriation of the ideas of others: an important aspect of scholarly activity is the exchange of ideas among colleagues. Scholars can acquire novel ideas from others during the process of reviewing grant applications and manuscripts. However, improper use of such information can constitute fraud. Wholesale appropriation of such material constitutes misconduct.",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "Violation of generally accepted research practices: Serious deviation from accepted practices in proposing or carrying out research, improper manipulation of experiments to obtain biased results, deceptive statistical or analytical manipulations, or improper reporting of results.",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "Material failure to comply with legislative and regulatory requirements affecting research: Including but not limited to serious or substantial, repeated, willful violations of applicable local regulations and law involving the use of funds, care of animals, human subjects, investigational drugs, recombinant products, new devices, or radioactive, biologic, or chemical materials.",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "Inappropriate behavior in relation to misconduct: this includes unfounded or knowingly false accusations of misconduct, failure to report known or suspected misconduct, withholding or destruction of information relevant to a claim of misconduct, and retaliation against persons involved in the allegation or investigation. This includes qualifications, experience, or research accomplishments to advance the research program, to obtain external funding, or for other professional advancements.",
+                                            "items": []
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "lPSRyyu3ht",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Responses to Possible Misconduct</b>"
+                                }
+                            },
+                            {
+                                "id": "vPM-q8wV-F",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "A committee consisting of the editor-in-chief and editorial board members, as determined by the editor-in-chief, who has specific expertise in the area being investigated, will investigate misconduct allegations. The suitable actions were taken based on the recommendations of&nbsp;the&nbsp;Committee on Publication Ethics&nbsp;(<a href=\"https://publicationethics.org/resources/flowcharts/responding-whistleblowers-concerns-raised-directly\">COPE</a>)."
+                                }
+                            },
+                            {
+                                "id": "W_QEoSqOEh",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "The journal&nbsp;follows the policies and&nbsp;<a href=\"https://publicationethics.org/guidance/Guidelines\">guidelines</a>&nbsp;of the Committee on Publication Ethics (<a href=\"https://publicationethics.org/guidance/Flowcharts\">COPE</a>) and abides by its&nbsp;<a href=\"https://publicationethics.org/files/Code_of_conduct_for_journal_editors_Mar11.pdf\">Code of Conduct</a>&nbsp;in dealing with potential cases of&nbsp;misconduct."
+                                }
+                            },
+                            {
+                                "id": "mbrI8qKLoz",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Allegations of misconduct</b>"
+                                }
+                            },
+                            {
+                                "id": "WdkIBtBqpX",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "The editorial board will incessantly work towards observing publication misconduct such as redundant (duplicate) publication, plagiarism, fraudulent or fabricated data, changes in authorship, undisclosed conflict of interest, ethical problem with a submitted manuscript, a reviewer who has appropriated an author’s idea or data, complaints against editors, and etc. When the journal faces suspected cases of research and publication misconduct, the resolving process will be followed by guidelines provided by the \"Committee on Publication Ethics (COPE)\". The complete guidelines appear on COPE website:&nbsp;<a href=\"http://www.publicationethics.org./\">http://www.publicationethics.org.</a>"
+                                }
+                            },
+                            {
+                                "id": "74gFzfOXbH",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Dealing with possible misconduct</b>"
+                                }
+                            },
+                            {
+                                "id": "75kD_Ip3xi",
+                                "type": "list",
+                                "data": {
+                                    "style": "unordered",
+                                    "items": [
+                                        {
+                                            "content": "Editors should follow the&nbsp;",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "Editors have a duty to act if they suspect misconduct or if an allegation of misconduct is brought to them. This duty extends to both published and unpublished papers.",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "Editors should not simply reject papers that raise concerns about possible misconduct. They are ethically obliged to pursue alleged cases.",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "Editors should first seek a response from those suspected of misconduct. If they are not satisfied with the response, they should ask the relevant employers, or institution, or some appropriate body (perhaps a regulatory body or national research integrity organization) to investigate.",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "Editors should make all reasonable efforts to ensure that a proper investigation into alleged misconduct is conducted; if this does not happen, editors should make all reasonable attempts to persist in obtaining a resolution to the problem. This is an onerous but important duty.",
+                                            "items": []
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "4P8DfJe7NI",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Appeals process</b>"
+                                }
+                            },
+                            {
+                                "id": "JGJ4UMmBKv",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "The journal follows the&nbsp;<a href=\"https://publicationethics.org/\">Committee on Publication Ethics (COPE) guidelines</a>&nbsp;on appeals."
+                                }
+                            },
+                            {
+                                "id": "9Y4uceFOo1",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "the Journal welcome genuine appeals to editor decisions. However, the corresponding author will need to provide strong evidence or new /WebUsers/information in response to the editor’s and reviewers’ comments. For scholarly articles of an opinion nature an appeal is less likely to overturn an editor’s decision. These include, viewpoints, commentaries, and book reviews, where editorial judgment about readability and relevance weighs most heavily. In any case, all opinion-led articles should be evidence-based and fully referenced."
+                                }
+                            },
+                            {
+                                "id": "nMIXY-VLss",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "For opinion-led articles, the corresponding author should always present the evidence and explain how it led this to form the opinion. Editors don’t expect frequent appeals and they rarely reverse their original decisions. Therefore, if the corresponding author received a decision to reject manuscript, the journal strongly advise that manuscript to submit to another journal. The decision to reject a manuscript for publication will often involve the editor’s judgment of priority/importance. These are things which authors usually cannot address through an appeal."
+                                }
+                            },
+                            {
+                                "id": "BtR2I225u9",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Complaints process</b>"
+                                }
+                            },
+                            {
+                                "id": "OvGSN5H-b4",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "The authors have the right to complain and ask explanation if they perceive any misconduct in any applicable policies and ethical guidelines. The authors can raise their complaints by submitting a letter to:&nbsp; EMAIL HERE. We follow the&nbsp;<a href=\"https://publicationethics.org/resources/flowcharts/responding-whistleblowers-concerns-raised-directly\">COPE</a>&nbsp;guidelines on responding to whistleblowers, which includes protecting anonymity. All the complaints regarding delinquencies in the work processes are investigated according to the prevailing publication ethics practices. An author or any other scholar may submit their complaints about any issues related to:"
+                                }
+                            },
+                            {
+                                "id": "X4SjL0kj25",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "- Authorship issues;"
+                                }
+                            },
+                            {
+                                "id": "FN94Wb31Tn",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "- Bias in the review process;"
+                                }
+                            },
+                            {
+                                "id": "3pCzacxcjt",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "- Copyright violation;"
+                                }
+                            },
+                            {
+                                "id": "GJR2LXixhk",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "- Deceiving in research results or wrong research results;"
+                                }
+                            },
+                            {
+                                "id": "yDix0kNY9-",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "- Manuscript processing time is unusually late;"
+                                }
+                            },
+                            {
+                                "id": "q0AcnAv4PC",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "- Plagiarism;"
+                                }
+                            },
+                            {
+                                "id": "oYSbGx9Yww",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "- The peer-review comments are unsatisfactory;"
+                                }
+                            },
+                            {
+                                "id": "AvULlM7Xom",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "- Unrevealed conflicts of interest; and &nbsp;"
+                                }
+                            },
+                            {
+                                "id": "-HaD0R8KOK",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "- Violations of the research ethics and integrity."
+                                }
+                            }
+                        ],
+                        "version": "2.29.1"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "url",
+            "url": "{contextURL}/journal-policies",
+            "label": "Journal Policies",
+            "children": [
+                {
+                    "type": "blockPage",
+                    "label": "Open Access Statement",
+                    "path": "open-access-statement",
+                    "content": {
+                        "time": 1734440290238,
+                        "blocks": [
+                            {
+                                "id": "_B2LjSzzcK",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "The {journalName} ({abbreviationUpper}) is a\nfully open-access journal, ensuring that all articles are immediately available\nonline to all users upon publication. The {journalName} ({abbreviationUpper}) operates\nunder the&nbsp;<a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\">Creative Commons Attribution 4.0 International (CC BY 4.0) license</a>. This means that\nauthors retain the copyright of their work while allowing anyone to download,\nreuse, reprint, modify, distribute, and/or copy the content, provided the\noriginal authors and source are properly credited."
+                                }
+                            },
+                            {
+                                "id": "oGnU3SXXsl",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "This open access license grants users\nthe right to:"
+                                }
+                            },
+                            {
+                                "id": "wjyP1xasFp",
+                                "type": "list",
+                                "data": {
+                                    "style": "unordered",
+                                    "items": [
+                                        {
+                                            "content": "Share: Copy and redistribute the material in\n     any medium or format.",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "Adapt: Remix, transform, and build upon the\n     material for any purpose, including commercial purposes.",
+                                            "items": []
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "jBCOn8Iu8v",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Benefits of open access for authors\ninclude:"
+                                }
+                            },
+                            {
+                                "id": "KnPS6h5XT9",
+                                "type": "list",
+                                "data": {
+                                    "style": "unordered",
+                                    "items": [
+                                        {
+                                            "content": "Retention of copyright to their work.",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "Free access for all users worldwide.",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "Increased visibility and readership.",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "No spatial constraints.",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "Rapid publication.",
+                                            "items": []
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "version": "2.29.1"
+                    }
+                },
+                {
+                    "type": "blockPage",
+                    "label": "Copyright Policy and Licensing Statement",
+                    "path": "copyright-licensing",
+                    "content": {
+                        "time": 1734440318416,
+                        "blocks": [
+                            {
+                                "id": "UOf6MOoV0e",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "The {journalName} ({abbreviationUpper}) is an\nOpen Access journal, distributed under the terms of the&nbsp;<a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\">Creative Commons\nAttribution 4.0 International (CC BY 4.0) license</a>.&nbsp; This license\npermits unrestricted use, distribution, adaptation, and reproduction in any\nmedium, provided the original work is properly cited."
+                                }
+                            },
+                            {
+                                "id": "ykSRg8We7Z",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>As a condition of publication in the Creative\nCity Design ({abbreviationUpper}), all authors retain the copyright and full publishing rights.\nThe authors agree to the following terms:</b>"
+                                }
+                            },
+                            {
+                                "id": "N2trEW9VAd",
+                                "type": "list",
+                                "data": {
+                                    "style": "ordered",
+                                    "items": [
+                                        {
+                                            "content": "Creative Commons License",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "Additional Distribution Agreements",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "Online Posting",
+                                            "items": []
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "nzrGGJegzF",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Authors are permitted to post their\nwork online in institutional/disciplinary repositories or on their own\nwebsites. Pre-print versions posted online should include a citation and link\nto the final published version in the {journalName} ({abbreviationUpper}) as soon as the\nissue is available; post-print versions (including the final publisher's PDF)\nshould include a citation and link to the journal's website."
+                                }
+                            },
+                            {
+                                "id": "DC5F5vRX3n",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Authors are responsible for securing\nall necessary copyright permissions for the use of third-party materials in\ntheir manuscript. Written evidence of this permission must be provided upon\nacceptance of the manuscript."
+                                }
+                            }
+                        ],
+                        "version": "2.29.1"
+                    }
+                },
+                {
+                    "type": "blockPage",
+                    "label": "Plagiarism Policy",
+                    "path": "plagiarism-policy",
+                    "content": {
+                        "time": 1734440375410,
+                        "blocks": [
+                            {
+                                "id": "p-VvM9sMvR",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Plagiarism, defined as the unauthorized\nuse or close adaptation of another author's work without proper attribution, is\nstrictly prohibited. This includes copying expressions of ideas, structural\nsimilarities in the text, or presenting others' ideas and results as original\nresearch. Our journal adheres to a stringent \"Anti-Plagiarism\"\npolicy."
+                                }
+                            },
+                            {
+                                "id": "nuLAY1A_j2",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "To enforce this policy, we\nutilize&nbsp;<a href=\"http://www.ithenticate.com/\" target=\"_blank\">iThenticate</a>&nbsp;or other\navailable software/platforms for English articles to check for similarities."
+                                }
+                            },
+                            {
+                                "id": "82JrJj1e5m",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Definition of Plagiarism</b>"
+                                }
+                            },
+                            {
+                                "id": "hAb3OvBPF5",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Plagiarism occurs when:"
+                                }
+                            },
+                            {
+                                "id": "axS_el9Ey7",
+                                "type": "list",
+                                "data": {
+                                    "style": "ordered",
+                                    "items": [
+                                        {
+                                            "content": "Someone else's work is presented as one's own.",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "Words or ideas from another source are used\n     without giving proper credit.",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "Incorrect information is provided about the\n     source.",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "Words are changed, but the sentence structure\n     of a source is copied without giving credit.",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "A significant portion of a work is copied from\n     a source, with or without proper credit.",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "Images, figures, or graphs are used without\n     proper permission and citation.",
+                                            "items": []
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "nZgbkTAsbr",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Authors must obtain written permission\nfrom the original owner when necessary and provide appropriate citations for\nany images, figures, or graphs used in their work."
+                                }
+                            },
+                            {
+                                "id": "uJfD4rvVvO",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Similarity Check Procedures</b>"
+                                }
+                            },
+                            {
+                                "id": "j9LwFV2BN7",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Our journal conducts similarity checks\non each manuscript prior to the peer-review process using iThenticate and the\nSamim Noor system."
+                                }
+                            },
+                            {
+                                "id": "bGjijNhWlh",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Actions Taken for Detected Plagiarism</b>"
+                                }
+                            },
+                            {
+                                "id": "qh19qAPFuI",
+                                "type": "list",
+                                "data": {
+                                    "style": "ordered",
+                                    "items": [
+                                        {
+                                            "content": "Low Similarity:",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "High Similarity:",
+                                            "items": []
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "-nk-tp8jeA",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "If plagiarism is detected at any stage,\nappropriate actions will be taken in accordance with the COPE guidelines and\nflowcharts on&nbsp;<a href=\"https://publicationethics.org/resources/flowcharts/plagiarism-submitted-manuscript\" target=\"_blank\">Plagiarism in a submitted manuscript</a>&nbsp;and&nbsp;<a href=\"https://publicationethics.org/resources/flowcharts/plagiarism-published-article\" target=\"_blank\">Plagiarism in a published article</a>."
+                                }
+                            },
+                            {
+                                "id": "iLK4BD-vaG",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "<b>Recommendations for Authors</b>"
+                                }
+                            },
+                            {
+                                "id": "UjRC-BgcQ2",
+                                "type": "list",
+                                "data": {
+                                    "style": "ordered",
+                                    "items": [
+                                        {
+                                            "content": "Always properly cite references and\n     acknowledge ideas.",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "Ensure all references contain full\n     bibliographic information.",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "Include all sources cited in the text in the\n     bibliography, and vice versa.",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "Use quotation marks for any text where more\n     than six consecutive words are copied.",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "Obtain permission from other authors or\n     publishers to reuse any copyright-protected content.",
+                                            "items": []
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "i1R9xB_Pa6",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "By adhering to these guidelines, we\nmaintain the integrity and originality of scholarly research published in our\njournal."
+                                }
+                            }
+                        ],
+                        "version": "2.29.1"
+                    }
+                },
+                {
+                    "type": "blockPage",
+                    "label": "Peer Review Process",
+                    "path": "peer-review",
+                    "content": {
+                        "time": 1734440972672,
+                        "blocks": [
+                            {
+                                "id": "KPcTBrpRwc",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "A manuscript submitted to {journalName} undergoes the following process:"
+                                }
+                            },
+                            {
+                                "id": "yKJKhhjZTn",
+                                "type": "list",
+                                "data": {
+                                    "style": "unordered",
+                                    "items": [
+                                        {
+                                            "content": "The manuscript is received via the journal’s online submission system.",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "An initial assessment is carried out by the editorial board, which involves the preliminary evaluation of the manuscript in terms of its composition as per the style, format, and preparation instructions provided in the journal’s Submission Guidelines. ",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "The submitted manuscript is then reviewed by at least two members of the editorial board in terms of its quality.",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "The manuscript is sent to at least two external reviewers who are experts in the related field of study.",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "Following the reviewer assignment, peer review process will take an average of three months.",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "An Editor-in-chief decision letter will be emailed to the corresponding author with the following range of possible outcomes: Rejection, major revision, minor revision, or acceptance without revision.",
+                                            "items": []
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "eguSrk_4u2",
+                                "type": "image",
+                                "data": {
+                                    "file": {
+                                        "url": "https://oiccpress.com/public/site/images/maa/peer-review-process-creative-city-design.jpg"
+                                    },
+                                    "caption": "",
+                                    "withBorder": false,
+                                    "stretched": false,
+                                    "withBackground": false
+                                }
+                            }
+                        ],
+                        "version": "2.29.1"
+                    }
+                },
+                {
+                    "type": "blockPage",
+                    "label": "Self-archiving Policies for Authors",
+                    "path": "self-archiving",
+                    "content": {
+                        "time": 1734440346002,
+                        "blocks": [
+                            {
+                                "id": "QUWhbGnxK_",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Authors\nare allowed to post their work online in institutional or disciplinary\nrepositories, as well as on their personal websites. Pre-print versions should\ninclude a citation and a link to the final published version in {journalName} ({abbreviationUpper}) as soon as the issue becomes available. Post-print versions\n(including the final publisher's PDF) should include a citation and a link to\nthe journal's website."
+                                }
+                            }
+                        ],
+                        "version": "2.29.1"
+                    }
+                },
+                {
+                    "type": "blockPage",
+                    "label": "Preservation Policy",
+                    "path": "preservation-policy",
+                    "content": {
+                        "time": 1734440408639,
+                        "blocks": [
+                            {
+                                "id": "Pv2ZCGk_ve",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "OICC Press is committed to ensuring the\nlong-term preservation, accessibility, and integrity of our scholarly content.\nThis policy outlines our approach to digital preservation and our measures to\nsafeguard our publications for future generations."
+                                }
+                            },
+                            {
+                                "id": "qiqpFj5uE6",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Digital Preservation Partner"
+                                }
+                            },
+                            {
+                                "id": "bNvlGOSQAZ",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "We have partnered with&nbsp;<a href=\"https://www.portico.org/\">Portico</a>, a leading digital preservation service, to secure our content.&nbsp;<a href=\"https://www.portico.org/why-portico/\">Portico's robust infrastructure and\ncommitment&nbsp;</a>to protecting the scholarly record make them an ideal partner in our\npreservation efforts&nbsp;<a href=\"https://www.portico.org/publishers/oicc/\">(https://www.portico.org/publishers/oicc/)</a>."
+                                }
+                            },
+                            {
+                                "id": "9RXyaMcXrd",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Objectives"
+                                }
+                            },
+                            {
+                                "id": "N2EgMbCD2Z",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "The primary objectives of our\npreservation policy are to:"
+                                }
+                            },
+                            {
+                                "id": "nQpGVYBxNA",
+                                "type": "list",
+                                "data": {
+                                    "style": "unordered",
+                                    "items": [
+                                        {
+                                            "content": "Maintain Accessibility: Ensure that our\n     content remains accessible to researchers and scholars over the long term.",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "Protect Integrity: Preserve the original\n     quality and authenticity of our publications.",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "Mitigate Risks: Safeguard against data loss\n     due to technological changes or unforeseen events.",
+                                            "items": []
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "_iJRjR3ABV",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Preservation Strategies"
+                                }
+                            },
+                            {
+                                "id": "trxZgtM4Qb",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "To achieve these objectives, we\nimplement the following strategies:"
+                                }
+                            },
+                            {
+                                "id": "pi1f1whToO",
+                                "type": "list",
+                                "data": {
+                                    "style": "unordered",
+                                    "items": [
+                                        {
+                                            "content": "Regular Backups: Our content is routinely\n     backed up to prevent data loss.",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "Format Migration: We monitor technological\n     advancements and migrate our content to new formats as necessary to ensure\n     continued accessibility.",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "Content Auditing: Regular audits are conducted\n     to verify the integrity and completeness of our preserved content.",
+                                            "items": []
+                                        },
+                                        {
+                                            "content": "Secure Storage: Content is stored in secure,\n     geographically dispersed locations to protect against physical and digital\n     threats.",
+                                            "items": []
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "-AGYo30w6V",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Access and Use"
+                                }
+                            },
+                            {
+                                "id": "FD4tRv9CNL",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Our preserved content is available to\nauthorised users under the same access conditions as our current publications.\nWe ensure that access policies are transparent and consistently applied."
+                                }
+                            },
+                            {
+                                "id": "8T91AOXhxx",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Review and Updates"
+                                }
+                            },
+                            {
+                                "id": "UILP2HaL2f",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "This preservation policy is reviewed\nannually to ensure its effectiveness and relevance. Updates are made as needed\nto reflect changes in technology, best practices, and organisational goals."
+                                }
+                            },
+                            {
+                                "id": "9qDFPg3gcY",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "Contact Information"
+                                }
+                            },
+                            {
+                                "id": "TKR-XdxhQk",
+                                "type": "paragraph",
+                                "data": {
+                                    "text": "For further information about our\npreservation policy or to report any issues related to access or integrity of\nour content, please contact us at:&nbsp;<a href=\"https://oiccpress.com/index/contact\">https://oiccpress.com/index/contact</a>"
+                                }
+                            }
+                        ],
+                        "version": "2.29.1"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "blockPage",
+            "label": "Indexing and Abstracting",
+            "path": "indexing",
+            "content": {
+                "time": 1734439571580,
+                "blocks": [
+                    {
+                        "id": "hSF22KuXuA",
+                        "type": "paragraph",
+                        "data": {
+                            "text": "TBC!"
+                        }
+                    }
+                ],
+                "version": "2.29.1"
+            }
+        },
+        {
+            "type": "submissions",
+            "label": "Submissions"
+        }
+    ]
+}
