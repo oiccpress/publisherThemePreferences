@@ -131,8 +131,8 @@ class PublisherPreferenceToolsPageHandler extends Handler {
     public function replaceVars($input, $currentContext, $request) {
         $contextUrl = $request->getRouter()->url($request, $currentContext->getPath());
         $input = str_replace(
-            [ '{abbreviationUpper}', '{contextURL}' ],
-            [ strtoupper($currentContext->getAcronym('en')), $contextUrl ],
+            [ '{journalName}', '{abbreviationUpper}', '{contextURL}' ],
+            [ $currentContext->getName('en'), strtoupper($currentContext->getAcronym('en')), $contextUrl ],
             $input
         );
         return $input;
