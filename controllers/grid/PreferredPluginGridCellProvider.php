@@ -72,7 +72,7 @@ class PreferredPluginGridCellProvider extends PluginGridCellProvider {
                             'enable',
                             new AjaxAction(
                                 $request->url(null, null, 'enable', null, array_merge(
-                                    ['csrfToken' => $request->getSession()->getCSRFToken()],
+                                    ['csrfToken' => $request->getSession()->token()],
                                     $requestArgs
                                 ))
                             ),
