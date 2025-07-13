@@ -286,7 +286,7 @@ class PublisherPreferenceToolsPageHandler extends Handler {
 
         $forms = [];
         $formsDAO = DAORegistry::getDAO('ReviewFormDAO'); /** @var ReviewFormDAO $reviewFormDao */
-        $formObjs = $formsDAO->getActiveByAssocId(Application::ASSOC_TYPE_JOURNAL, $request->getContext()->getId());
+        $formObjs = $formsDAO->getByAssocId(Application::ASSOC_TYPE_JOURNAL, $request->getContext()->getId());
         while ($reviewForm = $formObjs->next()) {
             $forms[$reviewForm->getId()] = $reviewForm->getLocalizedTitle();
         }
