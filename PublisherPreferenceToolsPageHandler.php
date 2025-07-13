@@ -11,6 +11,8 @@ use PKP\db\DAORegistry;
 use PKP\navigationMenu\NavigationMenuItem;
 use PKP\security\Role;
 use APP\journal\Journal;
+use PKP\reviewForm\ReviewFormDAO;
+use PKP\reviewForm\ReviewFormElementDAO;
 use APP\core\Request;
 use PKP\navigationMenu\NavigationMenuItemAssignment;
 use PKP\navigationMenu\NavigationMenuItemAssignmentDAO;
@@ -26,6 +28,52 @@ class PublisherPreferenceToolsPageHandler extends Handler {
         parent::__construct();
 
         $this->plugin = $plugin;
+    }
+
+    public function copyReviewForm($args, $request)
+    {
+
+        if (!$request->checkCSRF()) {
+            return new JSONMessage(false);
+        }
+
+        $currentUser = $request->getUser();
+        $currentContext = $request->getContext();
+
+        $isAdmin = $currentUser->hasRole([Role::ROLE_ID_MANAGER], $currentContext->getId()) || $currentUser->hasRole([Role::ROLE_ID_SITE_ADMIN], \PKP\core\PKPApplication::SITE_CONTEXT_ID);
+        if(!$isAdmin) {
+            return new JSONMessage(false, 'not admin');
+        }
+
+        // Get review form object
+        $reviewFormId = intval($_POST['form']);
+        $fromContextId = $request->getContext()->getId();
+        $toContextId = intval($_POST['journal']);
+        $reviewFormDao = DAORegistry::getDAO('ReviewFormDAO'); /** @var ReviewFormDAO $reviewFormDao */
+        $reviewForm = $reviewFormDao->getById($reviewFormId, Application::getContextAssocType(), $fromContextId);
+
+        $reviewForm->setAssocId($toContextId);
+        $reviewForm->setActive(0);
+        $reviewForm->setSequence(REALLY_BIG_NUMBER);
+        $newReviewFormId = $reviewFormDao->insertObject($reviewForm);
+        $reviewFormDao->resequenceReviewForms(Application::getContextAssocType(), $toContextId);
+
+        $reviewFormElementDao = DAORegistry::getDAO('ReviewFormElementDAO'); /** @var ReviewFormElementDAO $reviewFormElementDao */
+        $reviewFormElements = $reviewFormElementDao->getByReviewFormId($reviewFormId);
+        while ($reviewFormElement = $reviewFormElements->next()) {
+            $reviewFormElement->setReviewFormId($newReviewFormId);
+            $reviewFormElement->setSequence(REALLY_BIG_NUMBER);
+            $reviewFormElementDao->insertObject($reviewFormElement);
+            $reviewFormElementDao->resequenceReviewFormElements($newReviewFormId);
+        }
+
+        echo '<div style="display:flex;height:100vh;justify-content:center;align-items:center;flex-direction:column"><h1>Copy Review Form</h1>';
+
+        echo '<P>Form Copied</p>';
+
+        echo '</div>';
+        exit;
+
     }
 
     public function copyJournal($args, $request)
@@ -236,8 +284,16 @@ class PublisherPreferenceToolsPageHandler extends Handler {
             }
         }
 
+        $forms = [];
+        $formsDAO = DAORegistry::getDAO('ReviewFormDAO'); /** @var ReviewFormDAO $reviewFormDao */
+        $formObjs = $formsDAO->getActiveByAssocId(Application::ASSOC_TYPE_JOURNAL, $request->getContext()->getId());
+        while ($reviewForm = $formObjs->next()) {
+            $forms[$reviewForm->getId()] = $reviewForm->getLocalizedTitle();
+        }
+
         $templateMgr->assign([
             'journals' => $journals,
+            'forms' => $forms,
             'templates' => array_map( [ static::class, 'filename' ], glob( dirname(__FILE__) . '/journalTemplates/*.json' ) ),
         ]);
 

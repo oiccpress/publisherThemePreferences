@@ -9,3 +9,6 @@ msgstr "Next"
 
 msgid "plugins.generic.publisherPreferences.copyTemplate"
 msgstr "Copy Navigation and Pages from Template"
+
+msgid "plugins.generic.publisherPreferences.copyReviewForm"
+msgstr "Copy Review Form from this journal to another journal"
