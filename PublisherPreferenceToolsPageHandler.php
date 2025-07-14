@@ -11,6 +11,7 @@ use PKP\db\DAORegistry;
 use PKP\navigationMenu\NavigationMenuItem;
 use PKP\security\Role;
 use APP\journal\Journal;
+use App\journal\JournalDAO;
 use PKP\reviewForm\ReviewFormDAO;
 use PKP\reviewForm\ReviewFormElementDAO;
 use APP\core\Request;
@@ -278,7 +279,7 @@ class PublisherPreferenceToolsPageHandler extends Handler {
         $journalDao = DAORegistry::getDAO('JournalDAO'); /** @var JournalDAO $journalDao */
         $journals = [];
         $currentContext = $request->getContext();
-        foreach($journalDao->getAll(true)->toArray() as $journal) {
+        foreach($journalDao->getAll()->toArray() as $journal) {
             if($currentContext->getId() != $journal->getId()) {
                 $journals[] = $journal;
             }
