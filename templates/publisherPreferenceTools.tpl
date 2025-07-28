@@ -55,4 +55,17 @@
 
     </form>
 
+    <hr />
+
+    <h2>Journal Info</h2>
+
+    <table>
+        {foreach from=$journals item=journal}
+            <tr>
+                <td>{$journal->getLocalizedName()}</td>
+                <td>{$journal->getData('registrationAgency')}</td>
+            </tr>
+        {/foreach}
+    </table>
+
 </div>
