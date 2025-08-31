@@ -12,3 +12,9 @@ msgstr "Copy Navigation and Pages from Template"
 
 msgid "plugins.generic.publisherPreferences.copyReviewForm"
 msgstr "Copy Review Form from this journal to another journal"
+
+msgid "plugins.generic.publisherPreferences.updateCover"
+msgstr "Update Journal Cover"
+
+msgid "plugins.generic.publisherPreferences.updateCoverDescription"
+msgstr "Select a new cover for the journal, and any issues with no cover will get the current cover and the uploaded cover will take over as default cover"

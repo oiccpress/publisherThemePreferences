@@ -15,10 +15,16 @@ use App\journal\JournalDAO;
 use PKP\reviewForm\ReviewFormDAO;
 use PKP\reviewForm\ReviewFormElementDAO;
 use APP\core\Request;
+use APP\facades\Repo;
+use APP\file\PublicFileManager;
 use PKP\navigationMenu\NavigationMenuItemAssignment;
 use PKP\navigationMenu\NavigationMenuItemAssignmentDAO;
 use PKP\navigationMenu\NavigationMenuDAO;
-use APP\plugins\generic\blockPages\classes\BlockPage;
+use APP\plugins\generic\publisherPreferences\forms\NewJournalCoverForm;
+use Illuminate\Support\Facades\DB;
+use PKP\core\PKPRequest;
+use PKP\facades\Locale;
+use APP\services\ContextService;
 
 class PublisherPreferenceToolsPageHandler extends Handler {
 
@@ -303,6 +309,79 @@ class PublisherPreferenceToolsPageHandler extends Handler {
                 'publisherPreferenceTools.tpl'
             )
         );
+    }
+
+    public function uploadCoverImage($args, $request)
+    {
+        $imageUploadForm = new NewJournalCoverForm($this, $request);
+        $imageUploadForm->readInputData();
+
+        $temporaryFileId = $imageUploadForm->uploadFile($request);
+        if ($temporaryFileId) {
+            $json = new JSONMessage(true);
+            $json->setAdditionalAttributes([
+                'temporaryFileId' => $temporaryFileId
+            ]);
+            return $json;
+        } else {
+            return new JSONMessage(false, __('common.uploadFailed'));
+        }
+    }
+
+    public function uploadCover($args, PKPRequest $request)
+    {
+
+        // Now to action the request
+
+        // Firstly, lets set all issues to use the current cover
+        $contextId = $request->getContext()->getId();
+        $q = DB::table('issues', 'i')
+            ->select('i.*')
+            ->leftJoin('issue_settings', function($join){
+                // Do not already have a cover image
+                $join->on( 'issue_settings.setting_name', '=', DB::raw('"coverImage"') );
+                $join->on( 'issue_settings.issue_id', '=', 'i.issue_id');
+            })
+            ->where('i.journal_id', '=', $contextId)
+            ->where('issue_settings.issue_setting_id', null);
+        $locale = Locale::getLocale();
+
+        $journalThumbnail = $request->getContext()->getLocalizedData('journalThumbnail');
+        $publicFileManager = new PublicFileManager();
+        $ext = explode(".", $journalThumbnail['uploadName']);
+        $ext = array_pop($ext);
+
+        // Copy existing image
+        $newFilename = 'issue_' . uniqid() . '.' . $ext;
+        $newFile = $publicFileManager->getContextFilesPath($contextId) . '/' . $newFilename;
+        $publicFileManager->copyFile( $publicFileManager->getContextFilesPath($contextId) . '/' . $journalThumbnail['uploadName'], $newFile );
+        
+        $results = $q->get([ 'i.issue_id' ]);
+        foreach($results as $issueId) {
+
+            // Set on issues
+            $issue = Repo::issue()->get($issueId->issue_id);
+            $issue->setCoverImage( $newFilename, $locale );
+            $issue->setCoverImageAltText( $journalThumbnail['alt'], $locale );
+            Repo::issue()->edit($issue, []);
+
+        }
+
+        // Now we need to deal with updating the journal default image
+        /** @param ContextService */
+        $contextService = app()->get('context');
+        $contextService->edit($request->getContext(), [
+            'journalThumbnail' => [
+                $locale => [
+                    'alt' => $journalThumbnail['alt'],
+                    'temporaryFileId' => $_POST['temporaryFileId'],
+                ],
+            ]
+        ], $request);
+
+        $json = new JSONMessage(true, 'Updated!');
+        return $json;
+
     }
 
 }

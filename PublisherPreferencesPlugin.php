@@ -39,6 +39,8 @@ class PublisherPreferencesPlugin extends GenericPlugin {
 
             Hook::add( 'LoadHandler', [$this, 'setPageHandler'] );
             Hook::add( 'Templates::Management::Settings::tools', [ $this, 'callbackShowToolsTabs' ] );
+
+            Hook::add( 'Template::Settings::website::appearance', [ $this, 'callbackShowAppearanceTabs' ] );
         }
 
         return $success;
@@ -66,6 +68,20 @@ class PublisherPreferencesPlugin extends GenericPlugin {
             $componentInstance = new PreferredPluginGridHandler($this);
             return true;
         }
+        return false;
+    }
+
+    public function callbackShowAppearanceTabs($hookName, $args)
+    {
+        $templateMgr = $args[1];
+        $output = & $args[2];
+        $request = & Registry::get('request');
+        $dispatcher = $request->getDispatcher();
+
+        $templateMgr->registerPlugin('function', 'plugin_url', $this->smartyPluginUrl(...));
+        $output .= $templateMgr->fetch($this->getTemplateResource('publisherAppearancesTab.tpl'));
+
+
         return false;
     }
 

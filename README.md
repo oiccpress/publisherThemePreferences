@@ -10,6 +10,7 @@ This does a couple main things:
   journal
 * Allow for block pages, along with navigation items, to be copied from another journal in order to get the majority of pages almost-ready
   when adding bulk amounts of journals.
+* Allow for journal thumbnail to be replaced, and copy it onto all issues without a cover assigned already
 
 ## OICC Press in collaboration with Invisible Dragon
 
